@@ -4,10 +4,10 @@
 
 ### [View Demo](https://cosmicblog.chriso.io)
 
-### Backend - [Cosmic JS](https://cosmicjs.com/)
+### [Cosmic JS](https://cosmicjs.com/)
 This project was created to expirement with and demonstrate the Cosmic JS tooling. All of the backend data is stored, edited, and retreived using Cosmic JS.
 
-### Frontend - [React](https://reactjs.org/) + [Next.js](https://nextjs.org/)
+### [React](https://reactjs.org/) + [Next.js](https://nextjs.org/)
 This is a universal web application, meaning it is rendered on the server, as well as the client. This provides better initial load times and search engine optimization.
 
 ### Getting Started
