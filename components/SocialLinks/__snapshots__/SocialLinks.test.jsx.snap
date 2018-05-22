@@ -1,0 +1,696 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialLinks should render 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <WithStyles(SocialLinks)
+    links={
+      Object {
+        "finishedLoadAt": 1527021510298,
+        "isLoading": false,
+        "items": Array [
+          Object {
+            "content": "Cosmic JS",
+            "icon": "https://cosmic-s3.imgix.net/d6286310-5dcd-11e8-9db3-17fe5e4c3dd5-logo.png",
+            "slug": "cosmic-js",
+            "url": "https://cosmicjs.com/",
+          },
+          Object {
+            "content": "Facebook",
+            "icon": "https://cosmic-s3.imgix.net/00170740-5df5-11e8-a1ae-3923d095aa54-facebook-f.svg",
+            "slug": "facebook",
+            "url": "https://www.facebook.com/neildegrassetyson/",
+          },
+          Object {
+            "content": "Twitter",
+            "icon": "https://cosmic-s3.imgix.net/de154760-5df4-11e8-a1ae-3923d095aa54-twitter.svg",
+            "slug": "twitter",
+            "url": "https://twitter.com/SpaceX?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          },
+          Object {
+            "content": "NASA",
+            "icon": "https://cosmic-s3.imgix.net/6071bc30-5df4-11e8-b874-7ddc7f75f297-nasa-vector.jpg",
+            "slug": "nasa",
+            "url": "https://www.nasa.gov/",
+          },
+          Object {
+            "content": "Hooli",
+            "icon": "https://cosmic-s3.imgix.net/107f1f10-5df4-11e8-8b90-49cb251195d1-hooli.svg",
+            "slug": "hooli",
+            "url": "http://www.hooli.xyz/",
+          },
+        ],
+        "startedLoadAt": 1527021509874,
+      }
+    }
+  >
+    <SocialLinks
+      classes={
+        Object {
+          "iconButton": "SocialLinks-iconButton-1",
+          "image": "SocialLinks-image-2",
+          "root": "SocialLinks-root-3",
+        }
+      }
+      links={
+        Object {
+          "finishedLoadAt": 1527021510298,
+          "isLoading": false,
+          "items": Array [
+            Object {
+              "content": "Cosmic JS",
+              "icon": "https://cosmic-s3.imgix.net/d6286310-5dcd-11e8-9db3-17fe5e4c3dd5-logo.png",
+              "slug": "cosmic-js",
+              "url": "https://cosmicjs.com/",
+            },
+            Object {
+              "content": "Facebook",
+              "icon": "https://cosmic-s3.imgix.net/00170740-5df5-11e8-a1ae-3923d095aa54-facebook-f.svg",
+              "slug": "facebook",
+              "url": "https://www.facebook.com/neildegrassetyson/",
+            },
+            Object {
+              "content": "Twitter",
+              "icon": "https://cosmic-s3.imgix.net/de154760-5df4-11e8-a1ae-3923d095aa54-twitter.svg",
+              "slug": "twitter",
+              "url": "https://twitter.com/SpaceX?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+            },
+            Object {
+              "content": "NASA",
+              "icon": "https://cosmic-s3.imgix.net/6071bc30-5df4-11e8-b874-7ddc7f75f297-nasa-vector.jpg",
+              "slug": "nasa",
+              "url": "https://www.nasa.gov/",
+            },
+            Object {
+              "content": "Hooli",
+              "icon": "https://cosmic-s3.imgix.net/107f1f10-5df4-11e8-8b90-49cb251195d1-hooli.svg",
+              "slug": "hooli",
+              "url": "http://www.hooli.xyz/",
+            },
+          ],
+          "startedLoadAt": 1527021509874,
+        }
+      }
+    >
+      <div
+        className="SocialLinks-root-3"
+      >
+        <LinkRoutes
+          href="https://cosmicjs.com/"
+          key="cosmic-js"
+        >
+          <Link
+            href="https://cosmicjs.com/"
+          >
+            <a
+              href="https://cosmicjs.com/"
+              onClick={[Function]}
+            >
+              <WithStyles(IconButton)
+                className="SocialLinks-iconButton-1"
+              >
+                <IconButton
+                  className="SocialLinks-iconButton-1"
+                  classes={
+                    Object {
+                      "colorInherit": "MuiIconButton-colorInherit-5",
+                      "colorPrimary": "MuiIconButton-colorPrimary-6",
+                      "colorSecondary": "MuiIconButton-colorSecondary-7",
+                      "disabled": "MuiIconButton-disabled-8",
+                      "label": "MuiIconButton-label-9",
+                      "root": "MuiIconButton-root-4",
+                    }
+                  }
+                  color="default"
+                  disabled={false}
+                >
+                  <WithStyles(ButtonBase)
+                    centerRipple={true}
+                    className="MuiIconButton-root-4 SocialLinks-iconButton-1"
+                    disabled={false}
+                    focusRipple={true}
+                  >
+                    <ButtonBase
+                      centerRipple={true}
+                      className="MuiIconButton-root-4 SocialLinks-iconButton-1"
+                      classes={
+                        Object {
+                          "disabled": "MuiButtonBase-disabled-11",
+                          "focusVisible": "MuiButtonBase-focusVisible-12",
+                          "root": "MuiButtonBase-root-10",
+                        }
+                      }
+                      disableRipple={false}
+                      disabled={false}
+                      focusRipple={true}
+                      tabIndex="0"
+                      type="button"
+                    >
+                      <button
+                        className="MuiButtonBase-root-10 MuiIconButton-root-4 SocialLinks-iconButton-1"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        tabIndex="0"
+                        type="button"
+                      >
+                        <span
+                          className="MuiIconButton-label-9"
+                        >
+                          <img
+                            alt="Cosmic JS"
+                            className="SocialLinks-image-2"
+                            height={36}
+                            src="https://cosmic-s3.imgix.net/d6286310-5dcd-11e8-9db3-17fe5e4c3dd5-logo.png?w=36&h=36"
+                            width={36}
+                          />
+                        </span>
+                        <WithStyles(TouchRipple)
+                          center={true}
+                          innerRef={[Function]}
+                        >
+                          <TouchRipple
+                            center={true}
+                            classes={
+                              Object {
+                                "child": "MuiTouchRipple-child-17",
+                                "childLeaving": "MuiTouchRipple-childLeaving-18",
+                                "childPulsate": "MuiTouchRipple-childPulsate-19",
+                                "ripple": "MuiTouchRipple-ripple-14",
+                                "ripplePulsate": "MuiTouchRipple-ripplePulsate-16",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible-15",
+                                "root": "MuiTouchRipple-root-13",
+                              }
+                            }
+                          >
+                            <TransitionGroup
+                              childFactory={[Function]}
+                              className="MuiTouchRipple-root-13"
+                              component="span"
+                              enter={true}
+                              exit={true}
+                            >
+                              <span
+                                className="MuiTouchRipple-root-13"
+                              />
+                            </TransitionGroup>
+                          </TouchRipple>
+                        </WithStyles(TouchRipple)>
+                      </button>
+                    </ButtonBase>
+                  </WithStyles(ButtonBase)>
+                </IconButton>
+              </WithStyles(IconButton)>
+            </a>
+          </Link>
+        </LinkRoutes>
+        <LinkRoutes
+          href="https://www.facebook.com/neildegrassetyson/"
+          key="facebook"
+        >
+          <Link
+            href="https://www.facebook.com/neildegrassetyson/"
+          >
+            <a
+              href="https://www.facebook.com/neildegrassetyson/"
+              onClick={[Function]}
+            >
+              <WithStyles(IconButton)
+                className="SocialLinks-iconButton-1"
+              >
+                <IconButton
+                  className="SocialLinks-iconButton-1"
+                  classes={
+                    Object {
+                      "colorInherit": "MuiIconButton-colorInherit-5",
+                      "colorPrimary": "MuiIconButton-colorPrimary-6",
+                      "colorSecondary": "MuiIconButton-colorSecondary-7",
+                      "disabled": "MuiIconButton-disabled-8",
+                      "label": "MuiIconButton-label-9",
+                      "root": "MuiIconButton-root-4",
+                    }
+                  }
+                  color="default"
+                  disabled={false}
+                >
+                  <WithStyles(ButtonBase)
+                    centerRipple={true}
+                    className="MuiIconButton-root-4 SocialLinks-iconButton-1"
+                    disabled={false}
+                    focusRipple={true}
+                  >
+                    <ButtonBase
+                      centerRipple={true}
+                      className="MuiIconButton-root-4 SocialLinks-iconButton-1"
+                      classes={
+                        Object {
+                          "disabled": "MuiButtonBase-disabled-11",
+                          "focusVisible": "MuiButtonBase-focusVisible-12",
+                          "root": "MuiButtonBase-root-10",
+                        }
+                      }
+                      disableRipple={false}
+                      disabled={false}
+                      focusRipple={true}
+                      tabIndex="0"
+                      type="button"
+                    >
+                      <button
+                        className="MuiButtonBase-root-10 MuiIconButton-root-4 SocialLinks-iconButton-1"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        tabIndex="0"
+                        type="button"
+                      >
+                        <span
+                          className="MuiIconButton-label-9"
+                        >
+                          <img
+                            alt="Facebook"
+                            className="SocialLinks-image-2"
+                            height={36}
+                            src="https://cosmic-s3.imgix.net/00170740-5df5-11e8-a1ae-3923d095aa54-facebook-f.svg?w=36&h=36"
+                            width={36}
+                          />
+                        </span>
+                        <WithStyles(TouchRipple)
+                          center={true}
+                          innerRef={[Function]}
+                        >
+                          <TouchRipple
+                            center={true}
+                            classes={
+                              Object {
+                                "child": "MuiTouchRipple-child-17",
+                                "childLeaving": "MuiTouchRipple-childLeaving-18",
+                                "childPulsate": "MuiTouchRipple-childPulsate-19",
+                                "ripple": "MuiTouchRipple-ripple-14",
+                                "ripplePulsate": "MuiTouchRipple-ripplePulsate-16",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible-15",
+                                "root": "MuiTouchRipple-root-13",
+                              }
+                            }
+                          >
+                            <TransitionGroup
+                              childFactory={[Function]}
+                              className="MuiTouchRipple-root-13"
+                              component="span"
+                              enter={true}
+                              exit={true}
+                            >
+                              <span
+                                className="MuiTouchRipple-root-13"
+                              />
+                            </TransitionGroup>
+                          </TouchRipple>
+                        </WithStyles(TouchRipple)>
+                      </button>
+                    </ButtonBase>
+                  </WithStyles(ButtonBase)>
+                </IconButton>
+              </WithStyles(IconButton)>
+            </a>
+          </Link>
+        </LinkRoutes>
+        <LinkRoutes
+          href="https://twitter.com/SpaceX?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          key="twitter"
+        >
+          <Link
+            href="https://twitter.com/SpaceX?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          >
+            <a
+              href="https://twitter.com/SpaceX?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+              onClick={[Function]}
+            >
+              <WithStyles(IconButton)
+                className="SocialLinks-iconButton-1"
+              >
+                <IconButton
+                  className="SocialLinks-iconButton-1"
+                  classes={
+                    Object {
+                      "colorInherit": "MuiIconButton-colorInherit-5",
+                      "colorPrimary": "MuiIconButton-colorPrimary-6",
+                      "colorSecondary": "MuiIconButton-colorSecondary-7",
+                      "disabled": "MuiIconButton-disabled-8",
+                      "label": "MuiIconButton-label-9",
+                      "root": "MuiIconButton-root-4",
+                    }
+                  }
+                  color="default"
+                  disabled={false}
+                >
+                  <WithStyles(ButtonBase)
+                    centerRipple={true}
+                    className="MuiIconButton-root-4 SocialLinks-iconButton-1"
+                    disabled={false}
+                    focusRipple={true}
+                  >
+                    <ButtonBase
+                      centerRipple={true}
+                      className="MuiIconButton-root-4 SocialLinks-iconButton-1"
+                      classes={
+                        Object {
+                          "disabled": "MuiButtonBase-disabled-11",
+                          "focusVisible": "MuiButtonBase-focusVisible-12",
+                          "root": "MuiButtonBase-root-10",
+                        }
+                      }
+                      disableRipple={false}
+                      disabled={false}
+                      focusRipple={true}
+                      tabIndex="0"
+                      type="button"
+                    >
+                      <button
+                        className="MuiButtonBase-root-10 MuiIconButton-root-4 SocialLinks-iconButton-1"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        tabIndex="0"
+                        type="button"
+                      >
+                        <span
+                          className="MuiIconButton-label-9"
+                        >
+                          <img
+                            alt="Twitter"
+                            className="SocialLinks-image-2"
+                            height={36}
+                            src="https://cosmic-s3.imgix.net/de154760-5df4-11e8-a1ae-3923d095aa54-twitter.svg?w=36&h=36"
+                            width={36}
+                          />
+                        </span>
+                        <WithStyles(TouchRipple)
+                          center={true}
+                          innerRef={[Function]}
+                        >
+                          <TouchRipple
+                            center={true}
+                            classes={
+                              Object {
+                                "child": "MuiTouchRipple-child-17",
+                                "childLeaving": "MuiTouchRipple-childLeaving-18",
+                                "childPulsate": "MuiTouchRipple-childPulsate-19",
+                                "ripple": "MuiTouchRipple-ripple-14",
+                                "ripplePulsate": "MuiTouchRipple-ripplePulsate-16",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible-15",
+                                "root": "MuiTouchRipple-root-13",
+                              }
+                            }
+                          >
+                            <TransitionGroup
+                              childFactory={[Function]}
+                              className="MuiTouchRipple-root-13"
+                              component="span"
+                              enter={true}
+                              exit={true}
+                            >
+                              <span
+                                className="MuiTouchRipple-root-13"
+                              />
+                            </TransitionGroup>
+                          </TouchRipple>
+                        </WithStyles(TouchRipple)>
+                      </button>
+                    </ButtonBase>
+                  </WithStyles(ButtonBase)>
+                </IconButton>
+              </WithStyles(IconButton)>
+            </a>
+          </Link>
+        </LinkRoutes>
+        <LinkRoutes
+          href="https://www.nasa.gov/"
+          key="nasa"
+        >
+          <Link
+            href="https://www.nasa.gov/"
+          >
+            <a
+              href="https://www.nasa.gov/"
+              onClick={[Function]}
+            >
+              <WithStyles(IconButton)
+                className="SocialLinks-iconButton-1"
+              >
+                <IconButton
+                  className="SocialLinks-iconButton-1"
+                  classes={
+                    Object {
+                      "colorInherit": "MuiIconButton-colorInherit-5",
+                      "colorPrimary": "MuiIconButton-colorPrimary-6",
+                      "colorSecondary": "MuiIconButton-colorSecondary-7",
+                      "disabled": "MuiIconButton-disabled-8",
+                      "label": "MuiIconButton-label-9",
+                      "root": "MuiIconButton-root-4",
+                    }
+                  }
+                  color="default"
+                  disabled={false}
+                >
+                  <WithStyles(ButtonBase)
+                    centerRipple={true}
+                    className="MuiIconButton-root-4 SocialLinks-iconButton-1"
+                    disabled={false}
+                    focusRipple={true}
+                  >
+                    <ButtonBase
+                      centerRipple={true}
+                      className="MuiIconButton-root-4 SocialLinks-iconButton-1"
+                      classes={
+                        Object {
+                          "disabled": "MuiButtonBase-disabled-11",
+                          "focusVisible": "MuiButtonBase-focusVisible-12",
+                          "root": "MuiButtonBase-root-10",
+                        }
+                      }
+                      disableRipple={false}
+                      disabled={false}
+                      focusRipple={true}
+                      tabIndex="0"
+                      type="button"
+                    >
+                      <button
+                        className="MuiButtonBase-root-10 MuiIconButton-root-4 SocialLinks-iconButton-1"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        tabIndex="0"
+                        type="button"
+                      >
+                        <span
+                          className="MuiIconButton-label-9"
+                        >
+                          <img
+                            alt="NASA"
+                            className="SocialLinks-image-2"
+                            height={36}
+                            src="https://cosmic-s3.imgix.net/6071bc30-5df4-11e8-b874-7ddc7f75f297-nasa-vector.jpg?w=36&h=36"
+                            width={36}
+                          />
+                        </span>
+                        <WithStyles(TouchRipple)
+                          center={true}
+                          innerRef={[Function]}
+                        >
+                          <TouchRipple
+                            center={true}
+                            classes={
+                              Object {
+                                "child": "MuiTouchRipple-child-17",
+                                "childLeaving": "MuiTouchRipple-childLeaving-18",
+                                "childPulsate": "MuiTouchRipple-childPulsate-19",
+                                "ripple": "MuiTouchRipple-ripple-14",
+                                "ripplePulsate": "MuiTouchRipple-ripplePulsate-16",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible-15",
+                                "root": "MuiTouchRipple-root-13",
+                              }
+                            }
+                          >
+                            <TransitionGroup
+                              childFactory={[Function]}
+                              className="MuiTouchRipple-root-13"
+                              component="span"
+                              enter={true}
+                              exit={true}
+                            >
+                              <span
+                                className="MuiTouchRipple-root-13"
+                              />
+                            </TransitionGroup>
+                          </TouchRipple>
+                        </WithStyles(TouchRipple)>
+                      </button>
+                    </ButtonBase>
+                  </WithStyles(ButtonBase)>
+                </IconButton>
+              </WithStyles(IconButton)>
+            </a>
+          </Link>
+        </LinkRoutes>
+        <LinkRoutes
+          href="http://www.hooli.xyz/"
+          key="hooli"
+        >
+          <Link
+            href="http://www.hooli.xyz/"
+          >
+            <a
+              href="http://www.hooli.xyz/"
+              onClick={[Function]}
+            >
+              <WithStyles(IconButton)
+                className="SocialLinks-iconButton-1"
+              >
+                <IconButton
+                  className="SocialLinks-iconButton-1"
+                  classes={
+                    Object {
+                      "colorInherit": "MuiIconButton-colorInherit-5",
+                      "colorPrimary": "MuiIconButton-colorPrimary-6",
+                      "colorSecondary": "MuiIconButton-colorSecondary-7",
+                      "disabled": "MuiIconButton-disabled-8",
+                      "label": "MuiIconButton-label-9",
+                      "root": "MuiIconButton-root-4",
+                    }
+                  }
+                  color="default"
+                  disabled={false}
+                >
+                  <WithStyles(ButtonBase)
+                    centerRipple={true}
+                    className="MuiIconButton-root-4 SocialLinks-iconButton-1"
+                    disabled={false}
+                    focusRipple={true}
+                  >
+                    <ButtonBase
+                      centerRipple={true}
+                      className="MuiIconButton-root-4 SocialLinks-iconButton-1"
+                      classes={
+                        Object {
+                          "disabled": "MuiButtonBase-disabled-11",
+                          "focusVisible": "MuiButtonBase-focusVisible-12",
+                          "root": "MuiButtonBase-root-10",
+                        }
+                      }
+                      disableRipple={false}
+                      disabled={false}
+                      focusRipple={true}
+                      tabIndex="0"
+                      type="button"
+                    >
+                      <button
+                        className="MuiButtonBase-root-10 MuiIconButton-root-4 SocialLinks-iconButton-1"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        tabIndex="0"
+                        type="button"
+                      >
+                        <span
+                          className="MuiIconButton-label-9"
+                        >
+                          <img
+                            alt="Hooli"
+                            className="SocialLinks-image-2"
+                            height={36}
+                            src="https://cosmic-s3.imgix.net/107f1f10-5df4-11e8-8b90-49cb251195d1-hooli.svg?w=36&h=36"
+                            width={36}
+                          />
+                        </span>
+                        <WithStyles(TouchRipple)
+                          center={true}
+                          innerRef={[Function]}
+                        >
+                          <TouchRipple
+                            center={true}
+                            classes={
+                              Object {
+                                "child": "MuiTouchRipple-child-17",
+                                "childLeaving": "MuiTouchRipple-childLeaving-18",
+                                "childPulsate": "MuiTouchRipple-childPulsate-19",
+                                "ripple": "MuiTouchRipple-ripple-14",
+                                "ripplePulsate": "MuiTouchRipple-ripplePulsate-16",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible-15",
+                                "root": "MuiTouchRipple-root-13",
+                              }
+                            }
+                          >
+                            <TransitionGroup
+                              childFactory={[Function]}
+                              className="MuiTouchRipple-root-13"
+                              component="span"
+                              enter={true}
+                              exit={true}
+                            >
+                              <span
+                                className="MuiTouchRipple-root-13"
+                              />
+                            </TransitionGroup>
+                          </TouchRipple>
+                        </WithStyles(TouchRipple)>
+                      </button>
+                    </ButtonBase>
+                  </WithStyles(ButtonBase)>
+                </IconButton>
+              </WithStyles(IconButton)>
+            </a>
+          </Link>
+        </LinkRoutes>
+      </div>
+    </SocialLinks>
+  </WithStyles(SocialLinks)>
+</Provider>
+`;

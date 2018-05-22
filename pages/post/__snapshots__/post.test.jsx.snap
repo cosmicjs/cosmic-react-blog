@@ -1237,37 +1237,41 @@ exports[`Post page should render 1`] = `
             className="Post-centerColumn-4 Post-divider-6"
           />
         </main>
-        <WithStyles(SharingFooter)
-          hashtags={
-            Array [
-              "Awesome",
-            ]
-          }
-        >
-          <SharingFooter
+        <WithStyles(Connect(SocialLinks))>
+          <Connect(SocialLinks)
             classes={
               Object {
-                "icon": "SharingFooter-icon-85",
-                "iconButton": "SharingFooter-iconButton-86",
-                "root": "SharingFooter-root-87",
+                "iconButton": "Connect-SocialLinks--iconButton-85",
+                "image": "Connect-SocialLinks--image-86",
+                "root": "Connect-SocialLinks--root-87",
               }
             }
-            hashtags={
-              Array [
-                "Awesome",
-              ]
-            }
-            title="Awesome"
           >
-            <div
-              style={
+            <SocialLinks
+              classes={
                 Object {
-                  "display": "none",
+                  "iconButton": "Connect-SocialLinks--iconButton-85",
+                  "image": "Connect-SocialLinks--image-86",
+                  "root": "Connect-SocialLinks--root-87",
                 }
               }
-            />
-          </SharingFooter>
-        </WithStyles(SharingFooter)>
+              dispatch={[Function]}
+              links={
+                Object {
+                  "error": undefined,
+                  "finishedLoadAt": undefined,
+                  "isLoading": false,
+                  "items": undefined,
+                  "startedLoadAt": undefined,
+                }
+              }
+            >
+              <div
+                className="Connect-SocialLinks--root-87"
+              />
+            </SocialLinks>
+          </Connect(SocialLinks)>
+        </WithStyles(Connect(SocialLinks))>
       </div>
     </Post>
   </WithStyles(Post)>

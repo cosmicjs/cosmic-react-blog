@@ -13,7 +13,7 @@ import { fetchLinksIfNeeded } from '../../state/links/actions';
 import { fetchPostIfNeeded } from '../../state/posts/actions';
 import AppBar from '../../components/AppBar';
 import AuthorInfo from '../../components/AuthorInfo';
-import SharingFooter from '../../components/SharingFooter';
+import SocialLinks from '../../components/SocialLinks';
 import { BASE_URL } from '../../utils/constants';
 
 const styles = theme => ({
@@ -226,17 +226,13 @@ const Post = ({
             ])}
           />
         </main>
-        <SharingFooter
-          asPath={asPath}
-          hashtags={['Awesome']}
-          title={metadata && metadata.title}
-        />
+        <SocialLinks />
       </div>
     </Fragment>
   );
 };
 
-Post.getInitialProps = async ({ asPath, query, reduxStore }) => {
+Post.getInitialProps = async ({ query, reduxStore }) => {
   const { slug } = query;
   const { dispatch } = reduxStore;
 
@@ -247,13 +243,10 @@ Post.getInitialProps = async ({ asPath, query, reduxStore }) => {
     ]);
     const { posts } = reduxStore.getState();
     const { post } = posts[slug];
-    return {
-      ...post,
-      asPath,
-    };
+    return { ...post };
   } catch (e) {
     console.error(e); // eslint-disable-line no-console
-    return { asPath, slug };
+    return { slug };
   }
 };
 

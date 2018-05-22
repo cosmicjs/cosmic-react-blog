@@ -12,7 +12,7 @@ import { fetchLinksIfNeeded } from '../../state/links/actions';
 import { fetchSiteMetadataIfNeeded } from '../../state/metadata/actions';
 import { fetchPageIfNeeded } from '../../state/pages/actions';
 import PostPreview from '../../components/PostPreview';
-import SharingFooter from '../../components/SharingFooter';
+import SocialLinks from '../../components/SocialLinks';
 
 const styles = theme => ({
   divider: {
@@ -87,7 +87,6 @@ const Index = ({
   page,
   pages,
   posts,
-  asPath,
 }) => {
   let postPreviews;
   try {
@@ -157,16 +156,12 @@ const Index = ({
         </ul>
       }
       <hr className={classes.divider} />
-      <SharingFooter
-        asPath={asPath}
-        hashtags={['Awesome']}
-        title={metadata && metadata.title}
-      />
+      <SocialLinks />
     </div>
   );
 };
 
-Index.getInitialProps = async ({ asPath, query, reduxStore }) => {
+Index.getInitialProps = async ({ query, reduxStore }) => {
   const { p } = query;
   const page = p && parseInt(p, 10) > 1 ? parseInt(p, 10) : 1;
 
@@ -182,15 +177,10 @@ Index.getInitialProps = async ({ asPath, query, reduxStore }) => {
     // Do nothing
   }
 
-  return { page, asPath };
-};
-
-Index.defaultProps = {
-  asPath: undefined,
+  return { page };
 };
 
 Index.propTypes = {
-  asPath: PropTypes.string,
   classes: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
   metadata: PropTypes.shape({
     logo: PropTypes.shape({

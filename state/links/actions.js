@@ -15,7 +15,9 @@ const catchLinksFetchError = err => ({
 const receiveLinks = json => ({
   type: actionTypes.RECEIVE_LINKS,
   items: json.objects && json.objects.map(object => ({
+    content: object.content,
     icon: object.metadata && object.metadata.icon && object.metadata.icon.imgix_url,
+    slug: object.slug,
     url: object.metadata && object.metadata.url,
   })),
 });

@@ -5,7 +5,7 @@ import { DisconnectedIndex } from '.';
 
 describe('Disconnected Index Page', () => {
   it('should render', () => {
-    const wrapper = mount((
+    const wrapper = shallow((
       <DisconnectedIndex
         metadata={metadata}
         page={1}
