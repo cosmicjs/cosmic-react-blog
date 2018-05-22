@@ -24,6 +24,20 @@ app.prepare()
         error: err,
       })));
 
+    // API endpoint for social links
+    server.get('/api/social-links', (req, res) => {
+      const params = {
+        type: 'social-links',
+      };
+
+      return bucket.getObjects(params)
+        .then(objects => res.send(objects))
+        .catch(err => res.status(404).json({
+          message: 'Error fetching social links',
+          error: err,
+        }));
+    });
+
     // API endpoint for a list of posts (by page)
     server.get('/api/posts/page/:page', (req, res) => {
       const validatedPage = !Number.isNaN(req.params.page) && parseInt(req.params.page, 10) >= 0
