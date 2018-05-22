@@ -8,6 +8,7 @@ import Head from 'next/head';
 import Typography from '@material-ui/core/Typography';
 
 import withRoot from '../../src/withRoot';
+import { fetchLinksIfNeeded } from '../../state/links/actions';
 import { fetchSiteMetadataIfNeeded } from '../../state/metadata/actions';
 import { fetchPageIfNeeded } from '../../state/pages/actions';
 import PostPreview from '../../components/PostPreview';
@@ -170,9 +171,11 @@ Index.getInitialProps = async ({ asPath, query, reduxStore }) => {
   const page = p && parseInt(p, 10) > 1 ? parseInt(p, 10) : 1;
 
   try {
+    const { dispatch } = reduxStore;
     await Promise.all([
-      reduxStore.dispatch(fetchPageIfNeeded(page)),
-      reduxStore.dispatch(fetchSiteMetadataIfNeeded()),
+      dispatch(fetchLinksIfNeeded()),
+      dispatch(fetchPageIfNeeded(page)),
+      dispatch(fetchSiteMetadataIfNeeded()),
     ]);
   } catch (e) {
     console.error(e); // eslint-disable-line no-console

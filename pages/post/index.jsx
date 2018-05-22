@@ -9,6 +9,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 
 import withRoot from '../../src/withRoot';
+import { fetchLinksIfNeeded } from '../../state/links/actions';
 import { fetchPostIfNeeded } from '../../state/posts/actions';
 import AppBar from '../../components/AppBar';
 import AuthorInfo from '../../components/AuthorInfo';
@@ -240,7 +241,10 @@ Post.getInitialProps = async ({ asPath, query, reduxStore }) => {
   const { dispatch } = reduxStore;
 
   try {
-    await dispatch(fetchPostIfNeeded(slug));
+    await Promise.all([
+      dispatch(fetchPostIfNeeded(slug)),
+      dispatch(fetchLinksIfNeeded()),
+    ]);
     const { posts } = reduxStore.getState();
     const { post } = posts[slug];
     return {
