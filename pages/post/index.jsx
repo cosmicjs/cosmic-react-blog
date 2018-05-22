@@ -11,6 +11,7 @@ import Typography from '@material-ui/core/Typography';
 import withRoot from '../../src/withRoot';
 import { fetchPostIfNeeded } from '../../state/posts/actions';
 import AppBar from '../../components/AppBar';
+import AuthorInfo from '../../components/AuthorInfo';
 import SharingFooter from '../../components/SharingFooter';
 import { BASE_URL } from '../../utils/constants';
 
@@ -19,6 +20,10 @@ const styles = theme => ({
     alignItems: 'center',
     display: 'flex',
     marginBottom: theme.spacing.unit * 2,
+  },
+  authorInfo: {
+    margin: theme.spacing.unit * 6,
+    marginTop: theme.spacing.unit * 4,
   },
   authorFigure: {
     height: 16,
@@ -91,9 +96,10 @@ const Post = ({
   published_at, // eslint-disable-line camelcase
   title,
 }) => {
-  const authorName = metadata && metadata.author && metadata.author.title;
-  const authorImageUrl = metadata && metadata.author && metadata.author.metadata
-    && metadata.author.metadata.image && metadata.author.metadata.image.imgix_url;
+  const author = metadata && metadata.author;
+  const authorName = author && author.title;
+  const authorImageUrl = author && author.metadata && author.metadata.image
+    && author.metadata.image.imgix_url;
   const heroUrl = metadata && metadata.hero && metadata.hero.imgix_url;
 
   return (
@@ -129,43 +135,43 @@ const Post = ({
                     width="16px"
                   />
                 </figure>
-            }
+              }
               {
-              authorName &&
-              <Typography variant="display1">
-                {authorName}
-              </Typography>
-            }
+                authorName &&
+                <Typography variant="display1">
+                  {authorName}
+                </Typography>
+              }
             </div>
-        }
+          }
           {
-          title &&
-          <Typography
-            classes={{
-              root: classnames([
-                classes.centerColumn,
-                classes.title,
-              ]),
-            }}
-            variant="display3"
-          >
-            {title}
-          </Typography>
-        }
+            title &&
+            <Typography
+              classes={{
+                root: classnames([
+                  classes.centerColumn,
+                  classes.title,
+                ]),
+              }}
+              variant="display3"
+            >
+              {title}
+            </Typography>
+          }
           {
-          published_at && // eslint-disable-line camelcase
-          <Typography
-            classes={{
-              root: classnames([
-                classes.centerColumn,
-                classes.date,
-              ]),
-            }}
-            variant="subheading"
-          >
-            {moment(published_at).format('MMMM Do, YYYY')}
-          </Typography>
-        }
+            published_at && // eslint-disable-line camelcase
+            <Typography
+              classes={{
+                root: classnames([
+                  classes.centerColumn,
+                  classes.date,
+                ]),
+              }}
+              variant="subheading"
+            >
+              {moment(published_at).format('MMMM Do, YYYY')}
+            </Typography>
+          }
           <hr
             className={classnames([
             classes.centerColumn,
@@ -173,34 +179,50 @@ const Post = ({
           ])}
           />
           {
-          heroUrl &&
-          <figure
-            className={classnames([
-              classes.heroFigure,
-              classes.fullWidth,
-            ])}
-          >
-            <img
-              alt=""
-              className={classes.heroImg}
-              src={`${heroUrl}?w=900&fit=crop`}
-            />
-          </figure>
-        }
+            heroUrl &&
+            <figure
+              className={classnames([
+                classes.heroFigure,
+                classes.fullWidth,
+              ])}
+            >
+              <img
+                alt=""
+                className={classes.heroImg}
+                src={`${heroUrl}?w=900&fit=crop`}
+              />
+            </figure>
+          }
           {
-          content &&
-          <span className={classes.centerColumn}>
-            <Typography variant="body1" component="span">
-              {/* eslint-disable-next-line react/no-danger */}
-              <span dangerouslySetInnerHTML={{ __html: content }} />
-            </Typography>
-          </span>
-        }
+            content &&
+            <span className={classes.centerColumn}>
+              <Typography variant="body1" component="span">
+                {/* eslint-disable-next-line react/no-danger */}
+                <span dangerouslySetInnerHTML={{ __html: content }} />
+              </Typography>
+            </span>
+          }
           <hr
             className={classnames([
             classes.centerColumn,
             classes.divider,
           ])}
+          />
+          {
+            author &&
+            <AuthorInfo
+              {...author}
+              className={classnames([
+                classes.centerColumn,
+                classes.authorInfo,
+              ])}
+            />
+          }
+          <hr
+            className={classnames([
+              classes.centerColumn,
+              classes.divider,
+            ])}
           />
         </main>
         <SharingFooter

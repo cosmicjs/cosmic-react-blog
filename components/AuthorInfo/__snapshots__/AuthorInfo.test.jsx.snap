@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthorInfo should render 1`] = `
+<WithStyles(AuthorInfo)
+  _id="5afdbf6c44d74b4e924f1d09"
+  bucket="5afdbcd115bef94f7421eb0d"
+  className="customClassName"
+  content="<p>Something about John...</p>"
+  created="2017-10-12T13:27:49.665Z"
+  created_at="2017-10-12T13:27:49.665Z"
+  metadata={
+    Object {
+      "image": Object {
+        "imgix_url": "https://cosmic-s3.imgix.net/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+      },
+    }
+  }
+  metafields={
+    Array [
+      Object {
+        "children": null,
+        "imgix_url": "https://cosmic-s3.imgix.net/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+        "key": "image",
+        "title": "Image",
+        "type": "file",
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+        "value": "9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+      },
+    ]
+  }
+  modified_at="2018-05-17T17:44:12.977Z"
+  published_at="2018-05-17T17:44:12.977Z"
+  slug="john-doe"
+  status="published"
+  title="John Doe"
+  type_slug="authors"
+>
+  <AuthorInfo
+    _id="5afdbf6c44d74b4e924f1d09"
+    bucket="5afdbcd115bef94f7421eb0d"
+    className="customClassName"
+    classes={
+      Object {
+        "content": "AuthorInfo-content-1",
+        "image": "AuthorInfo-image-2",
+        "root": "AuthorInfo-root-3",
+      }
+    }
+    content="<p>Something about John...</p>"
+    created="2017-10-12T13:27:49.665Z"
+    created_at="2017-10-12T13:27:49.665Z"
+    metadata={
+      Object {
+        "image": Object {
+          "imgix_url": "https://cosmic-s3.imgix.net/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+          "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+        },
+      }
+    }
+    metafields={
+      Array [
+        Object {
+          "children": null,
+          "imgix_url": "https://cosmic-s3.imgix.net/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+          "key": "image",
+          "title": "Image",
+          "type": "file",
+          "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+          "value": "9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+        },
+      ]
+    }
+    modified_at="2018-05-17T17:44:12.977Z"
+    published_at="2018-05-17T17:44:12.977Z"
+    slug="john-doe"
+    status="published"
+    title="John Doe"
+    type_slug="authors"
+  >
+    <div
+      className="AuthorInfo-root-3 customClassName"
+    >
+      <img
+        alt="John Doe"
+        className="AuthorInfo-image-2"
+        height={120}
+        src="https://cosmic-s3.imgix.net/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg"
+        width={120}
+      />
+      <WithStyles(Typography)
+        classes={
+          Object {
+            "root": "AuthorInfo-content-1",
+          }
+        }
+        component="div"
+        variant="body2"
+      >
+        <Typography
+          align="inherit"
+          classes={
+            Object {
+              "alignCenter": "MuiTypography-alignCenter-17",
+              "alignJustify": "MuiTypography-alignJustify-19",
+              "alignLeft": "MuiTypography-alignLeft-16",
+              "alignRight": "MuiTypography-alignRight-18",
+              "body1": "MuiTypography-body1-13",
+              "body2": "MuiTypography-body2-12",
+              "button": "MuiTypography-button-15",
+              "caption": "MuiTypography-caption-14",
+              "colorError": "MuiTypography-colorError-27",
+              "colorInherit": "MuiTypography-colorInherit-23",
+              "colorPrimary": "MuiTypography-colorPrimary-24",
+              "colorSecondary": "MuiTypography-colorSecondary-25",
+              "colorTextSecondary": "MuiTypography-colorTextSecondary-26",
+              "display1": "MuiTypography-display1-8",
+              "display2": "MuiTypography-display2-7",
+              "display3": "MuiTypography-display3-6",
+              "display4": "MuiTypography-display4-5",
+              "gutterBottom": "MuiTypography-gutterBottom-21",
+              "headline": "MuiTypography-headline-9",
+              "noWrap": "MuiTypography-noWrap-20",
+              "paragraph": "MuiTypography-paragraph-22",
+              "root": "MuiTypography-root-4 AuthorInfo-content-1",
+              "subheading": "MuiTypography-subheading-11",
+              "title": "MuiTypography-title-10",
+            }
+          }
+          color="default"
+          component="div"
+          gutterBottom={false}
+          headlineMapping={
+            Object {
+              "body1": "p",
+              "body2": "aside",
+              "display1": "h1",
+              "display2": "h1",
+              "display3": "h1",
+              "display4": "h1",
+              "headline": "h1",
+              "subheading": "h3",
+              "title": "h2",
+            }
+          }
+          noWrap={false}
+          paragraph={false}
+          variant="body2"
+        >
+          <div
+            className="MuiTypography-root-4 AuthorInfo-content-1 MuiTypography-body2-12"
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<p>Something about John...</p>",
+                }
+              }
+            />
+          </div>
+        </Typography>
+      </WithStyles(Typography)>
+    </div>
+  </AuthorInfo>
+</WithStyles(AuthorInfo)>
+`;

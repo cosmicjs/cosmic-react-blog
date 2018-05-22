@@ -128,16 +128,17 @@ exports[`Post page should render 1`] = `
       classes={
         Object {
           "authorContainer": "Post-authorContainer-1",
-          "authorFigure": "Post-authorFigure-2",
-          "centerColumn": "Post-centerColumn-3",
-          "date": "Post-date-4",
-          "divider": "Post-divider-5",
-          "fullWidth": "Post-fullWidth-6",
-          "heroFigure": "Post-heroFigure-7",
-          "heroImg": "Post-heroImg-8",
-          "main": "Post-main-9",
-          "root": "Post-root-10",
-          "title": "Post-title-11",
+          "authorFigure": "Post-authorFigure-3",
+          "authorInfo": "Post-authorInfo-2",
+          "centerColumn": "Post-centerColumn-4",
+          "date": "Post-date-5",
+          "divider": "Post-divider-6",
+          "fullWidth": "Post-fullWidth-7",
+          "heroFigure": "Post-heroFigure-8",
+          "heroImg": "Post-heroImg-9",
+          "main": "Post-main-10",
+          "root": "Post-root-11",
+          "title": "Post-title-12",
         }
       }
       content="<p>When I orbited the Earth in a spaceship, I saw for the first time how beautiful our planet is. Mankind, let us preserve and increase this beauty, and not destroy it!</p><p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p><p>If you could see the earth illuminated when you were in a place as dark as night, it would look to you more splendid than the moon.</p><p>To be the first to enter the cosmos, to engage, single-handed, in an unprecedented duel with nature&mdash;could one dream of anything more?</p><p>We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win.</p><p>NASA is not about the &lsquo;Adventure of Human Space Exploration&rsquo;&hellip;We won&rsquo;t be doing it just to get out there in space &ndash; we&rsquo;ll be doing it because the things we learn out there will be making life better for a lot of people who won&rsquo;t be able to go.</p><p>Problems look mighty small from 150 miles up.</p><p>That&#39;s one small step for [a] man, one giant leap for mankind.</p><p>Where ignorance lurks, so too do the frontiers of discovery and imagination.</p><p>Dinosaurs are extinct today because they lacked opposable thumbs and the brainpower to build a space program.</p>"
@@ -256,12 +257,12 @@ exports[`Post page should render 1`] = `
         <AppBar
           classes={
             Object {
-              "appearanceBtn": "AppBar-appearanceBtn-12",
-              "backBtn": "AppBar-backBtn-13",
-              "header": "AppBar-header-14",
-              "header_topOfPage": "AppBar-header_topOfPage-15",
-              "title": "AppBar-title-16",
-              "title_topOfPage": "AppBar-title_topOfPage-17",
+              "appearanceBtn": "AppBar-appearanceBtn-13",
+              "backBtn": "AppBar-backBtn-14",
+              "header": "AppBar-header-15",
+              "header_topOfPage": "AppBar-header_topOfPage-16",
+              "title": "AppBar-title-17",
+              "title_topOfPage": "AppBar-title_topOfPage-18",
             }
           }
           title="A Wonderful Blog Post About Earth"
@@ -303,24 +304,24 @@ exports[`Post page should render 1`] = `
                 }
               >
                 <header
-                  className="AppBar-header-14 AppBar-header_topOfPage-15"
+                  className="AppBar-header-15 AppBar-header_topOfPage-16"
                 >
                   <WithStyles(IconButton)
                     aria-label="Back"
-                    className="AppBar-backBtn-13"
+                    className="AppBar-backBtn-14"
                     onClick={[Function]}
                   >
                     <IconButton
                       aria-label="Back"
-                      className="AppBar-backBtn-13"
+                      className="AppBar-backBtn-14"
                       classes={
                         Object {
-                          "colorInherit": "MuiIconButton-colorInherit-19",
-                          "colorPrimary": "MuiIconButton-colorPrimary-20",
-                          "colorSecondary": "MuiIconButton-colorSecondary-21",
-                          "disabled": "MuiIconButton-disabled-22",
-                          "label": "MuiIconButton-label-23",
-                          "root": "MuiIconButton-root-18",
+                          "colorInherit": "MuiIconButton-colorInherit-20",
+                          "colorPrimary": "MuiIconButton-colorPrimary-21",
+                          "colorSecondary": "MuiIconButton-colorSecondary-22",
+                          "disabled": "MuiIconButton-disabled-23",
+                          "label": "MuiIconButton-label-24",
+                          "root": "MuiIconButton-root-19",
                         }
                       }
                       color="default"
@@ -330,7 +331,7 @@ exports[`Post page should render 1`] = `
                       <WithStyles(ButtonBase)
                         aria-label="Back"
                         centerRipple={true}
-                        className="MuiIconButton-root-18 AppBar-backBtn-13"
+                        className="MuiIconButton-root-19 AppBar-backBtn-14"
                         disabled={false}
                         focusRipple={true}
                         onClick={[Function]}
@@ -338,12 +339,12 @@ exports[`Post page should render 1`] = `
                         <ButtonBase
                           aria-label="Back"
                           centerRipple={true}
-                          className="MuiIconButton-root-18 AppBar-backBtn-13"
+                          className="MuiIconButton-root-19 AppBar-backBtn-14"
                           classes={
                             Object {
-                              "disabled": "MuiButtonBase-disabled-25",
-                              "focusVisible": "MuiButtonBase-focusVisible-26",
-                              "root": "MuiButtonBase-root-24",
+                              "disabled": "MuiButtonBase-disabled-26",
+                              "focusVisible": "MuiButtonBase-focusVisible-27",
+                              "root": "MuiButtonBase-root-25",
                             }
                           }
                           disableRipple={false}
@@ -355,7 +356,7 @@ exports[`Post page should render 1`] = `
                         >
                           <button
                             aria-label="Back"
-                            className="MuiButtonBase-root-24 MuiIconButton-root-18 AppBar-backBtn-13"
+                            className="MuiButtonBase-root-25 MuiIconButton-root-19 AppBar-backBtn-14"
                             disabled={false}
                             onBlur={[Function]}
                             onClick={[Function]}
@@ -372,7 +373,7 @@ exports[`Post page should render 1`] = `
                             type="button"
                           >
                             <span
-                              className="MuiIconButton-label-23"
+                              className="MuiIconButton-label-24"
                             >
                               <pure(ArrowBack)>
                                 <ArrowBack>
@@ -380,12 +381,12 @@ exports[`Post page should render 1`] = `
                                     <SvgIcon
                                       classes={
                                         Object {
-                                          "colorAction": "MuiSvgIcon-colorAction-30",
-                                          "colorDisabled": "MuiSvgIcon-colorDisabled-32",
-                                          "colorError": "MuiSvgIcon-colorError-31",
-                                          "colorPrimary": "MuiSvgIcon-colorPrimary-28",
-                                          "colorSecondary": "MuiSvgIcon-colorSecondary-29",
-                                          "root": "MuiSvgIcon-root-27",
+                                          "colorAction": "MuiSvgIcon-colorAction-31",
+                                          "colorDisabled": "MuiSvgIcon-colorDisabled-33",
+                                          "colorError": "MuiSvgIcon-colorError-32",
+                                          "colorPrimary": "MuiSvgIcon-colorPrimary-29",
+                                          "colorSecondary": "MuiSvgIcon-colorSecondary-30",
+                                          "root": "MuiSvgIcon-root-28",
                                         }
                                       }
                                       color="inherit"
@@ -393,7 +394,7 @@ exports[`Post page should render 1`] = `
                                     >
                                       <svg
                                         aria-hidden="true"
-                                        className="MuiSvgIcon-root-27"
+                                        className="MuiSvgIcon-root-28"
                                         focusable="false"
                                         viewBox="0 0 24 24"
                                       >
@@ -416,25 +417,25 @@ exports[`Post page should render 1`] = `
                                 center={true}
                                 classes={
                                   Object {
-                                    "child": "MuiTouchRipple-child-37",
-                                    "childLeaving": "MuiTouchRipple-childLeaving-38",
-                                    "childPulsate": "MuiTouchRipple-childPulsate-39",
-                                    "ripple": "MuiTouchRipple-ripple-34",
-                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-36",
-                                    "rippleVisible": "MuiTouchRipple-rippleVisible-35",
-                                    "root": "MuiTouchRipple-root-33",
+                                    "child": "MuiTouchRipple-child-38",
+                                    "childLeaving": "MuiTouchRipple-childLeaving-39",
+                                    "childPulsate": "MuiTouchRipple-childPulsate-40",
+                                    "ripple": "MuiTouchRipple-ripple-35",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-37",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible-36",
+                                    "root": "MuiTouchRipple-root-34",
                                   }
                                 }
                               >
                                 <TransitionGroup
                                   childFactory={[Function]}
-                                  className="MuiTouchRipple-root-33"
+                                  className="MuiTouchRipple-root-34"
                                   component="span"
                                   enter={true}
                                   exit={true}
                                 >
                                   <span
-                                    className="MuiTouchRipple-root-33"
+                                    className="MuiTouchRipple-root-34"
                                   />
                                 </TransitionGroup>
                               </TouchRipple>
@@ -445,38 +446,38 @@ exports[`Post page should render 1`] = `
                     </IconButton>
                   </WithStyles(IconButton)>
                   <WithStyles(Typography)
-                    className="AppBar-title-16 AppBar-title_topOfPage-17"
+                    className="AppBar-title-17 AppBar-title_topOfPage-18"
                     variant="title"
                   >
                     <Typography
                       align="inherit"
-                      className="AppBar-title-16 AppBar-title_topOfPage-17"
+                      className="AppBar-title-17 AppBar-title_topOfPage-18"
                       classes={
                         Object {
-                          "alignCenter": "MuiTypography-alignCenter-53",
-                          "alignJustify": "MuiTypography-alignJustify-55",
-                          "alignLeft": "MuiTypography-alignLeft-52",
-                          "alignRight": "MuiTypography-alignRight-54",
-                          "body1": "MuiTypography-body1-49",
-                          "body2": "MuiTypography-body2-48",
-                          "button": "MuiTypography-button-51",
-                          "caption": "MuiTypography-caption-50",
-                          "colorError": "MuiTypography-colorError-63",
-                          "colorInherit": "MuiTypography-colorInherit-59",
-                          "colorPrimary": "MuiTypography-colorPrimary-60",
-                          "colorSecondary": "MuiTypography-colorSecondary-61",
-                          "colorTextSecondary": "MuiTypography-colorTextSecondary-62",
-                          "display1": "MuiTypography-display1-44",
-                          "display2": "MuiTypography-display2-43",
-                          "display3": "MuiTypography-display3-42",
-                          "display4": "MuiTypography-display4-41",
-                          "gutterBottom": "MuiTypography-gutterBottom-57",
-                          "headline": "MuiTypography-headline-45",
-                          "noWrap": "MuiTypography-noWrap-56",
-                          "paragraph": "MuiTypography-paragraph-58",
-                          "root": "MuiTypography-root-40",
-                          "subheading": "MuiTypography-subheading-47",
-                          "title": "MuiTypography-title-46",
+                          "alignCenter": "MuiTypography-alignCenter-54",
+                          "alignJustify": "MuiTypography-alignJustify-56",
+                          "alignLeft": "MuiTypography-alignLeft-53",
+                          "alignRight": "MuiTypography-alignRight-55",
+                          "body1": "MuiTypography-body1-50",
+                          "body2": "MuiTypography-body2-49",
+                          "button": "MuiTypography-button-52",
+                          "caption": "MuiTypography-caption-51",
+                          "colorError": "MuiTypography-colorError-64",
+                          "colorInherit": "MuiTypography-colorInherit-60",
+                          "colorPrimary": "MuiTypography-colorPrimary-61",
+                          "colorSecondary": "MuiTypography-colorSecondary-62",
+                          "colorTextSecondary": "MuiTypography-colorTextSecondary-63",
+                          "display1": "MuiTypography-display1-45",
+                          "display2": "MuiTypography-display2-44",
+                          "display3": "MuiTypography-display3-43",
+                          "display4": "MuiTypography-display4-42",
+                          "gutterBottom": "MuiTypography-gutterBottom-58",
+                          "headline": "MuiTypography-headline-46",
+                          "noWrap": "MuiTypography-noWrap-57",
+                          "paragraph": "MuiTypography-paragraph-59",
+                          "root": "MuiTypography-root-41",
+                          "subheading": "MuiTypography-subheading-48",
+                          "title": "MuiTypography-title-47",
                         }
                       }
                       color="default"
@@ -499,7 +500,7 @@ exports[`Post page should render 1`] = `
                       variant="title"
                     >
                       <h2
-                        className="MuiTypography-root-40 MuiTypography-title-46 AppBar-title-16 AppBar-title_topOfPage-17"
+                        className="MuiTypography-root-41 MuiTypography-title-47 AppBar-title-17 AppBar-title_topOfPage-18"
                       >
                         A Wonderful Blog Post About Earth
                       </h2>
@@ -507,20 +508,20 @@ exports[`Post page should render 1`] = `
                   </WithStyles(Typography)>
                   <WithStyles(IconButton)
                     aria-label="Appearance"
-                    className="AppBar-appearanceBtn-12"
+                    className="AppBar-appearanceBtn-13"
                     onClick={[Function]}
                   >
                     <IconButton
                       aria-label="Appearance"
-                      className="AppBar-appearanceBtn-12"
+                      className="AppBar-appearanceBtn-13"
                       classes={
                         Object {
-                          "colorInherit": "MuiIconButton-colorInherit-19",
-                          "colorPrimary": "MuiIconButton-colorPrimary-20",
-                          "colorSecondary": "MuiIconButton-colorSecondary-21",
-                          "disabled": "MuiIconButton-disabled-22",
-                          "label": "MuiIconButton-label-23",
-                          "root": "MuiIconButton-root-18",
+                          "colorInherit": "MuiIconButton-colorInherit-20",
+                          "colorPrimary": "MuiIconButton-colorPrimary-21",
+                          "colorSecondary": "MuiIconButton-colorSecondary-22",
+                          "disabled": "MuiIconButton-disabled-23",
+                          "label": "MuiIconButton-label-24",
+                          "root": "MuiIconButton-root-19",
                         }
                       }
                       color="default"
@@ -530,7 +531,7 @@ exports[`Post page should render 1`] = `
                       <WithStyles(ButtonBase)
                         aria-label="Appearance"
                         centerRipple={true}
-                        className="MuiIconButton-root-18 AppBar-appearanceBtn-12"
+                        className="MuiIconButton-root-19 AppBar-appearanceBtn-13"
                         disabled={false}
                         focusRipple={true}
                         onClick={[Function]}
@@ -538,12 +539,12 @@ exports[`Post page should render 1`] = `
                         <ButtonBase
                           aria-label="Appearance"
                           centerRipple={true}
-                          className="MuiIconButton-root-18 AppBar-appearanceBtn-12"
+                          className="MuiIconButton-root-19 AppBar-appearanceBtn-13"
                           classes={
                             Object {
-                              "disabled": "MuiButtonBase-disabled-25",
-                              "focusVisible": "MuiButtonBase-focusVisible-26",
-                              "root": "MuiButtonBase-root-24",
+                              "disabled": "MuiButtonBase-disabled-26",
+                              "focusVisible": "MuiButtonBase-focusVisible-27",
+                              "root": "MuiButtonBase-root-25",
                             }
                           }
                           disableRipple={false}
@@ -555,7 +556,7 @@ exports[`Post page should render 1`] = `
                         >
                           <button
                             aria-label="Appearance"
-                            className="MuiButtonBase-root-24 MuiIconButton-root-18 AppBar-appearanceBtn-12"
+                            className="MuiButtonBase-root-25 MuiIconButton-root-19 AppBar-appearanceBtn-13"
                             disabled={false}
                             onBlur={[Function]}
                             onClick={[Function]}
@@ -572,7 +573,7 @@ exports[`Post page should render 1`] = `
                             type="button"
                           >
                             <span
-                              className="MuiIconButton-label-23"
+                              className="MuiIconButton-label-24"
                             >
                               <pure(Settings)>
                                 <Settings>
@@ -580,12 +581,12 @@ exports[`Post page should render 1`] = `
                                     <SvgIcon
                                       classes={
                                         Object {
-                                          "colorAction": "MuiSvgIcon-colorAction-30",
-                                          "colorDisabled": "MuiSvgIcon-colorDisabled-32",
-                                          "colorError": "MuiSvgIcon-colorError-31",
-                                          "colorPrimary": "MuiSvgIcon-colorPrimary-28",
-                                          "colorSecondary": "MuiSvgIcon-colorSecondary-29",
-                                          "root": "MuiSvgIcon-root-27",
+                                          "colorAction": "MuiSvgIcon-colorAction-31",
+                                          "colorDisabled": "MuiSvgIcon-colorDisabled-33",
+                                          "colorError": "MuiSvgIcon-colorError-32",
+                                          "colorPrimary": "MuiSvgIcon-colorPrimary-29",
+                                          "colorSecondary": "MuiSvgIcon-colorSecondary-30",
+                                          "root": "MuiSvgIcon-root-28",
                                         }
                                       }
                                       color="inherit"
@@ -593,7 +594,7 @@ exports[`Post page should render 1`] = `
                                     >
                                       <svg
                                         aria-hidden="true"
-                                        className="MuiSvgIcon-root-27"
+                                        className="MuiSvgIcon-root-28"
                                         focusable="false"
                                         viewBox="0 0 24 24"
                                       >
@@ -616,25 +617,25 @@ exports[`Post page should render 1`] = `
                                 center={true}
                                 classes={
                                   Object {
-                                    "child": "MuiTouchRipple-child-37",
-                                    "childLeaving": "MuiTouchRipple-childLeaving-38",
-                                    "childPulsate": "MuiTouchRipple-childPulsate-39",
-                                    "ripple": "MuiTouchRipple-ripple-34",
-                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-36",
-                                    "rippleVisible": "MuiTouchRipple-rippleVisible-35",
-                                    "root": "MuiTouchRipple-root-33",
+                                    "child": "MuiTouchRipple-child-38",
+                                    "childLeaving": "MuiTouchRipple-childLeaving-39",
+                                    "childPulsate": "MuiTouchRipple-childPulsate-40",
+                                    "ripple": "MuiTouchRipple-ripple-35",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-37",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible-36",
+                                    "root": "MuiTouchRipple-root-34",
                                   }
                                 }
                               >
                                 <TransitionGroup
                                   childFactory={[Function]}
-                                  className="MuiTouchRipple-root-33"
+                                  className="MuiTouchRipple-root-34"
                                   component="span"
                                   enter={true}
                                   exit={true}
                                 >
                                   <span
-                                    className="MuiTouchRipple-root-33"
+                                    className="MuiTouchRipple-root-34"
                                   />
                                 </TransitionGroup>
                               </TouchRipple>
@@ -661,14 +662,14 @@ exports[`Post page should render 1`] = `
               <AppearanceDialog
                 classes={
                   Object {
-                    "button": "AppearanceDialog-button-64",
-                    "decreaseFontSizeBtn": "AppearanceDialog-decreaseFontSizeBtn-66",
-                    "dialog": "AppearanceDialog-dialog-65",
-                    "fontSizeBtnsContainer": "AppearanceDialog-fontSizeBtnsContainer-67",
-                    "increaseFontSizeBtn": "AppearanceDialog-increaseFontSizeBtn-68",
-                    "label": "AppearanceDialog-label-69",
-                    "switchContainer": "AppearanceDialog-switchContainer-70",
-                    "themeBtnsContainer": "AppearanceDialog-themeBtnsContainer-71",
+                    "button": "AppearanceDialog-button-65",
+                    "decreaseFontSizeBtn": "AppearanceDialog-decreaseFontSizeBtn-67",
+                    "dialog": "AppearanceDialog-dialog-66",
+                    "fontSizeBtnsContainer": "AppearanceDialog-fontSizeBtnsContainer-68",
+                    "increaseFontSizeBtn": "AppearanceDialog-increaseFontSizeBtn-69",
+                    "label": "AppearanceDialog-label-70",
+                    "switchContainer": "AppearanceDialog-switchContainer-71",
+                    "themeBtnsContainer": "AppearanceDialog-themeBtnsContainer-72",
                   }
                 }
                 dispatch={[Function]}
@@ -680,7 +681,7 @@ exports[`Post page should render 1`] = `
                   aria-labelledby="Appearance"
                   classes={
                     Object {
-                      "paper": "AppearanceDialog-dialog-65",
+                      "paper": "AppearanceDialog-dialog-66",
                     }
                   }
                   onClose={[Function]}
@@ -691,13 +692,13 @@ exports[`Post page should render 1`] = `
                     aria-labelledby="Appearance"
                     classes={
                       Object {
-                        "paper": "MuiDialog-paper-73 AppearanceDialog-dialog-65",
-                        "paperFullScreen": "MuiDialog-paperFullScreen-78",
-                        "paperFullWidth": "MuiDialog-paperFullWidth-77",
-                        "paperWidthMd": "MuiDialog-paperWidthMd-76",
-                        "paperWidthSm": "MuiDialog-paperWidthSm-75",
-                        "paperWidthXs": "MuiDialog-paperWidthXs-74",
-                        "root": "MuiDialog-root-72",
+                        "paper": "MuiDialog-paper-74 AppearanceDialog-dialog-66",
+                        "paperFullScreen": "MuiDialog-paperFullScreen-79",
+                        "paperFullWidth": "MuiDialog-paperFullWidth-78",
+                        "paperWidthMd": "MuiDialog-paperWidthMd-77",
+                        "paperWidthSm": "MuiDialog-paperWidthSm-76",
+                        "paperWidthXs": "MuiDialog-paperWidthXs-75",
+                        "root": "MuiDialog-root-73",
                       }
                     }
                     disableBackdropClick={false}
@@ -724,7 +725,7 @@ exports[`Post page should render 1`] = `
                         }
                       }
                       aria-labelledby="Appearance"
-                      className="MuiDialog-root-72"
+                      className="MuiDialog-root-73"
                       disableBackdropClick={false}
                       disableEscapeKeyDown={false}
                       onClose={[Function]}
@@ -742,11 +743,11 @@ exports[`Post page should render 1`] = `
                           }
                         }
                         aria-labelledby="Appearance"
-                        className="MuiDialog-root-72"
+                        className="MuiDialog-root-73"
                         classes={
                           Object {
-                            "hidden": "MuiModal-hidden-80",
-                            "root": "MuiModal-root-79",
+                            "hidden": "MuiModal-hidden-81",
+                            "root": "MuiModal-root-80",
                           }
                         }
                         disableAutoFocus={false}
@@ -778,16 +779,16 @@ exports[`Post page should render 1`] = `
         </AppBar>
       </WithStyles(AppBar)>
       <div
-        className="Post-root-10"
+        className="Post-root-11"
       >
         <main
-          className="Post-main-9"
+          className="Post-main-10"
         >
           <div
-            className="Post-authorContainer-1 Post-centerColumn-3"
+            className="Post-authorContainer-1 Post-centerColumn-4"
           >
             <figure
-              className="Post-authorFigure-2"
+              className="Post-authorFigure-3"
             >
               <img
                 alt=""
@@ -803,30 +804,30 @@ exports[`Post page should render 1`] = `
                 align="inherit"
                 classes={
                   Object {
-                    "alignCenter": "MuiTypography-alignCenter-53",
-                    "alignJustify": "MuiTypography-alignJustify-55",
-                    "alignLeft": "MuiTypography-alignLeft-52",
-                    "alignRight": "MuiTypography-alignRight-54",
-                    "body1": "MuiTypography-body1-49",
-                    "body2": "MuiTypography-body2-48",
-                    "button": "MuiTypography-button-51",
-                    "caption": "MuiTypography-caption-50",
-                    "colorError": "MuiTypography-colorError-63",
-                    "colorInherit": "MuiTypography-colorInherit-59",
-                    "colorPrimary": "MuiTypography-colorPrimary-60",
-                    "colorSecondary": "MuiTypography-colorSecondary-61",
-                    "colorTextSecondary": "MuiTypography-colorTextSecondary-62",
-                    "display1": "MuiTypography-display1-44",
-                    "display2": "MuiTypography-display2-43",
-                    "display3": "MuiTypography-display3-42",
-                    "display4": "MuiTypography-display4-41",
-                    "gutterBottom": "MuiTypography-gutterBottom-57",
-                    "headline": "MuiTypography-headline-45",
-                    "noWrap": "MuiTypography-noWrap-56",
-                    "paragraph": "MuiTypography-paragraph-58",
-                    "root": "MuiTypography-root-40",
-                    "subheading": "MuiTypography-subheading-47",
-                    "title": "MuiTypography-title-46",
+                    "alignCenter": "MuiTypography-alignCenter-54",
+                    "alignJustify": "MuiTypography-alignJustify-56",
+                    "alignLeft": "MuiTypography-alignLeft-53",
+                    "alignRight": "MuiTypography-alignRight-55",
+                    "body1": "MuiTypography-body1-50",
+                    "body2": "MuiTypography-body2-49",
+                    "button": "MuiTypography-button-52",
+                    "caption": "MuiTypography-caption-51",
+                    "colorError": "MuiTypography-colorError-64",
+                    "colorInherit": "MuiTypography-colorInherit-60",
+                    "colorPrimary": "MuiTypography-colorPrimary-61",
+                    "colorSecondary": "MuiTypography-colorSecondary-62",
+                    "colorTextSecondary": "MuiTypography-colorTextSecondary-63",
+                    "display1": "MuiTypography-display1-45",
+                    "display2": "MuiTypography-display2-44",
+                    "display3": "MuiTypography-display3-43",
+                    "display4": "MuiTypography-display4-42",
+                    "gutterBottom": "MuiTypography-gutterBottom-58",
+                    "headline": "MuiTypography-headline-46",
+                    "noWrap": "MuiTypography-noWrap-57",
+                    "paragraph": "MuiTypography-paragraph-59",
+                    "root": "MuiTypography-root-41",
+                    "subheading": "MuiTypography-subheading-48",
+                    "title": "MuiTypography-title-47",
                   }
                 }
                 color="default"
@@ -849,7 +850,7 @@ exports[`Post page should render 1`] = `
                 variant="display1"
               >
                 <h1
-                  className="MuiTypography-root-40 MuiTypography-display1-44"
+                  className="MuiTypography-root-41 MuiTypography-display1-45"
                 >
                   John Doe
                 </h1>
@@ -859,7 +860,7 @@ exports[`Post page should render 1`] = `
           <WithStyles(Typography)
             classes={
               Object {
-                "root": "Post-centerColumn-3 Post-title-11",
+                "root": "Post-centerColumn-4 Post-title-12",
               }
             }
             variant="display3"
@@ -868,30 +869,30 @@ exports[`Post page should render 1`] = `
               align="inherit"
               classes={
                 Object {
-                  "alignCenter": "MuiTypography-alignCenter-53",
-                  "alignJustify": "MuiTypography-alignJustify-55",
-                  "alignLeft": "MuiTypography-alignLeft-52",
-                  "alignRight": "MuiTypography-alignRight-54",
-                  "body1": "MuiTypography-body1-49",
-                  "body2": "MuiTypography-body2-48",
-                  "button": "MuiTypography-button-51",
-                  "caption": "MuiTypography-caption-50",
-                  "colorError": "MuiTypography-colorError-63",
-                  "colorInherit": "MuiTypography-colorInherit-59",
-                  "colorPrimary": "MuiTypography-colorPrimary-60",
-                  "colorSecondary": "MuiTypography-colorSecondary-61",
-                  "colorTextSecondary": "MuiTypography-colorTextSecondary-62",
-                  "display1": "MuiTypography-display1-44",
-                  "display2": "MuiTypography-display2-43",
-                  "display3": "MuiTypography-display3-42",
-                  "display4": "MuiTypography-display4-41",
-                  "gutterBottom": "MuiTypography-gutterBottom-57",
-                  "headline": "MuiTypography-headline-45",
-                  "noWrap": "MuiTypography-noWrap-56",
-                  "paragraph": "MuiTypography-paragraph-58",
-                  "root": "MuiTypography-root-40 Post-centerColumn-3 Post-title-11",
-                  "subheading": "MuiTypography-subheading-47",
-                  "title": "MuiTypography-title-46",
+                  "alignCenter": "MuiTypography-alignCenter-54",
+                  "alignJustify": "MuiTypography-alignJustify-56",
+                  "alignLeft": "MuiTypography-alignLeft-53",
+                  "alignRight": "MuiTypography-alignRight-55",
+                  "body1": "MuiTypography-body1-50",
+                  "body2": "MuiTypography-body2-49",
+                  "button": "MuiTypography-button-52",
+                  "caption": "MuiTypography-caption-51",
+                  "colorError": "MuiTypography-colorError-64",
+                  "colorInherit": "MuiTypography-colorInherit-60",
+                  "colorPrimary": "MuiTypography-colorPrimary-61",
+                  "colorSecondary": "MuiTypography-colorSecondary-62",
+                  "colorTextSecondary": "MuiTypography-colorTextSecondary-63",
+                  "display1": "MuiTypography-display1-45",
+                  "display2": "MuiTypography-display2-44",
+                  "display3": "MuiTypography-display3-43",
+                  "display4": "MuiTypography-display4-42",
+                  "gutterBottom": "MuiTypography-gutterBottom-58",
+                  "headline": "MuiTypography-headline-46",
+                  "noWrap": "MuiTypography-noWrap-57",
+                  "paragraph": "MuiTypography-paragraph-59",
+                  "root": "MuiTypography-root-41 Post-centerColumn-4 Post-title-12",
+                  "subheading": "MuiTypography-subheading-48",
+                  "title": "MuiTypography-title-47",
                 }
               }
               color="default"
@@ -914,7 +915,7 @@ exports[`Post page should render 1`] = `
               variant="display3"
             >
               <h1
-                className="MuiTypography-root-40 Post-centerColumn-3 Post-title-11 MuiTypography-display3-42"
+                className="MuiTypography-root-41 Post-centerColumn-4 Post-title-12 MuiTypography-display3-43"
               >
                 A Wonderful Blog Post About Earth
               </h1>
@@ -923,7 +924,7 @@ exports[`Post page should render 1`] = `
           <WithStyles(Typography)
             classes={
               Object {
-                "root": "Post-centerColumn-3 Post-date-4",
+                "root": "Post-centerColumn-4 Post-date-5",
               }
             }
             variant="subheading"
@@ -932,30 +933,30 @@ exports[`Post page should render 1`] = `
               align="inherit"
               classes={
                 Object {
-                  "alignCenter": "MuiTypography-alignCenter-53",
-                  "alignJustify": "MuiTypography-alignJustify-55",
-                  "alignLeft": "MuiTypography-alignLeft-52",
-                  "alignRight": "MuiTypography-alignRight-54",
-                  "body1": "MuiTypography-body1-49",
-                  "body2": "MuiTypography-body2-48",
-                  "button": "MuiTypography-button-51",
-                  "caption": "MuiTypography-caption-50",
-                  "colorError": "MuiTypography-colorError-63",
-                  "colorInherit": "MuiTypography-colorInherit-59",
-                  "colorPrimary": "MuiTypography-colorPrimary-60",
-                  "colorSecondary": "MuiTypography-colorSecondary-61",
-                  "colorTextSecondary": "MuiTypography-colorTextSecondary-62",
-                  "display1": "MuiTypography-display1-44",
-                  "display2": "MuiTypography-display2-43",
-                  "display3": "MuiTypography-display3-42",
-                  "display4": "MuiTypography-display4-41",
-                  "gutterBottom": "MuiTypography-gutterBottom-57",
-                  "headline": "MuiTypography-headline-45",
-                  "noWrap": "MuiTypography-noWrap-56",
-                  "paragraph": "MuiTypography-paragraph-58",
-                  "root": "MuiTypography-root-40 Post-centerColumn-3 Post-date-4",
-                  "subheading": "MuiTypography-subheading-47",
-                  "title": "MuiTypography-title-46",
+                  "alignCenter": "MuiTypography-alignCenter-54",
+                  "alignJustify": "MuiTypography-alignJustify-56",
+                  "alignLeft": "MuiTypography-alignLeft-53",
+                  "alignRight": "MuiTypography-alignRight-55",
+                  "body1": "MuiTypography-body1-50",
+                  "body2": "MuiTypography-body2-49",
+                  "button": "MuiTypography-button-52",
+                  "caption": "MuiTypography-caption-51",
+                  "colorError": "MuiTypography-colorError-64",
+                  "colorInherit": "MuiTypography-colorInherit-60",
+                  "colorPrimary": "MuiTypography-colorPrimary-61",
+                  "colorSecondary": "MuiTypography-colorSecondary-62",
+                  "colorTextSecondary": "MuiTypography-colorTextSecondary-63",
+                  "display1": "MuiTypography-display1-45",
+                  "display2": "MuiTypography-display2-44",
+                  "display3": "MuiTypography-display3-43",
+                  "display4": "MuiTypography-display4-42",
+                  "gutterBottom": "MuiTypography-gutterBottom-58",
+                  "headline": "MuiTypography-headline-46",
+                  "noWrap": "MuiTypography-noWrap-57",
+                  "paragraph": "MuiTypography-paragraph-59",
+                  "root": "MuiTypography-root-41 Post-centerColumn-4 Post-date-5",
+                  "subheading": "MuiTypography-subheading-48",
+                  "title": "MuiTypography-title-47",
                 }
               }
               color="default"
@@ -978,26 +979,26 @@ exports[`Post page should render 1`] = `
               variant="subheading"
             >
               <h3
-                className="MuiTypography-root-40 Post-centerColumn-3 Post-date-4 MuiTypography-subheading-47"
+                className="MuiTypography-root-41 Post-centerColumn-4 Post-date-5 MuiTypography-subheading-48"
               >
                 May 17th, 2018
               </h3>
             </Typography>
           </WithStyles(Typography)>
           <hr
-            className="Post-centerColumn-3 Post-divider-5"
+            className="Post-centerColumn-4 Post-divider-6"
           />
           <figure
-            className="Post-heroFigure-7 Post-fullWidth-6"
+            className="Post-heroFigure-8 Post-fullWidth-7"
           >
             <img
               alt=""
-              className="Post-heroImg-8"
+              className="Post-heroImg-9"
               src="https://cosmic-s3.imgix.net/56363630-af74-11e7-b864-313f959a776e-react-blog.jpg?w=900&fit=crop"
             />
           </figure>
           <span
-            className="Post-centerColumn-3"
+            className="Post-centerColumn-4"
           >
             <WithStyles(Typography)
               component="span"
@@ -1007,30 +1008,30 @@ exports[`Post page should render 1`] = `
                 align="inherit"
                 classes={
                   Object {
-                    "alignCenter": "MuiTypography-alignCenter-53",
-                    "alignJustify": "MuiTypography-alignJustify-55",
-                    "alignLeft": "MuiTypography-alignLeft-52",
-                    "alignRight": "MuiTypography-alignRight-54",
-                    "body1": "MuiTypography-body1-49",
-                    "body2": "MuiTypography-body2-48",
-                    "button": "MuiTypography-button-51",
-                    "caption": "MuiTypography-caption-50",
-                    "colorError": "MuiTypography-colorError-63",
-                    "colorInherit": "MuiTypography-colorInherit-59",
-                    "colorPrimary": "MuiTypography-colorPrimary-60",
-                    "colorSecondary": "MuiTypography-colorSecondary-61",
-                    "colorTextSecondary": "MuiTypography-colorTextSecondary-62",
-                    "display1": "MuiTypography-display1-44",
-                    "display2": "MuiTypography-display2-43",
-                    "display3": "MuiTypography-display3-42",
-                    "display4": "MuiTypography-display4-41",
-                    "gutterBottom": "MuiTypography-gutterBottom-57",
-                    "headline": "MuiTypography-headline-45",
-                    "noWrap": "MuiTypography-noWrap-56",
-                    "paragraph": "MuiTypography-paragraph-58",
-                    "root": "MuiTypography-root-40",
-                    "subheading": "MuiTypography-subheading-47",
-                    "title": "MuiTypography-title-46",
+                    "alignCenter": "MuiTypography-alignCenter-54",
+                    "alignJustify": "MuiTypography-alignJustify-56",
+                    "alignLeft": "MuiTypography-alignLeft-53",
+                    "alignRight": "MuiTypography-alignRight-55",
+                    "body1": "MuiTypography-body1-50",
+                    "body2": "MuiTypography-body2-49",
+                    "button": "MuiTypography-button-52",
+                    "caption": "MuiTypography-caption-51",
+                    "colorError": "MuiTypography-colorError-64",
+                    "colorInherit": "MuiTypography-colorInherit-60",
+                    "colorPrimary": "MuiTypography-colorPrimary-61",
+                    "colorSecondary": "MuiTypography-colorSecondary-62",
+                    "colorTextSecondary": "MuiTypography-colorTextSecondary-63",
+                    "display1": "MuiTypography-display1-45",
+                    "display2": "MuiTypography-display2-44",
+                    "display3": "MuiTypography-display3-43",
+                    "display4": "MuiTypography-display4-42",
+                    "gutterBottom": "MuiTypography-gutterBottom-58",
+                    "headline": "MuiTypography-headline-46",
+                    "noWrap": "MuiTypography-noWrap-57",
+                    "paragraph": "MuiTypography-paragraph-59",
+                    "root": "MuiTypography-root-41",
+                    "subheading": "MuiTypography-subheading-48",
+                    "title": "MuiTypography-title-47",
                   }
                 }
                 color="default"
@@ -1054,7 +1055,7 @@ exports[`Post page should render 1`] = `
                 variant="body1"
               >
                 <span
-                  className="MuiTypography-root-40 MuiTypography-body1-49"
+                  className="MuiTypography-root-41 MuiTypography-body1-50"
                 >
                   <span
                     dangerouslySetInnerHTML={
@@ -1068,7 +1069,172 @@ exports[`Post page should render 1`] = `
             </WithStyles(Typography)>
           </span>
           <hr
-            className="Post-centerColumn-3 Post-divider-5"
+            className="Post-centerColumn-4 Post-divider-6"
+          />
+          <WithStyles(AuthorInfo)
+            _id="5afdbf6c44d74b4e924f1d09"
+            bucket="5afdbcd115bef94f7421eb0d"
+            className="Post-centerColumn-4 Post-authorInfo-2"
+            content="<p>Something about John...</p>"
+            created="2017-10-12T13:27:49.665Z"
+            created_at="2017-10-12T13:27:49.665Z"
+            metadata={
+              Object {
+                "image": Object {
+                  "imgix_url": "https://cosmic-s3.imgix.net/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+                  "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+                },
+              }
+            }
+            metafields={
+              Array [
+                Object {
+                  "children": null,
+                  "imgix_url": "https://cosmic-s3.imgix.net/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+                  "key": "image",
+                  "title": "Image",
+                  "type": "file",
+                  "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+                  "value": "9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+                },
+              ]
+            }
+            modified_at="2018-05-17T17:44:12.977Z"
+            published_at="2018-05-17T17:44:12.977Z"
+            slug="john-doe"
+            status="published"
+            title="John Doe"
+            type_slug="authors"
+          >
+            <AuthorInfo
+              _id="5afdbf6c44d74b4e924f1d09"
+              bucket="5afdbcd115bef94f7421eb0d"
+              className="Post-centerColumn-4 Post-authorInfo-2"
+              classes={
+                Object {
+                  "content": "AuthorInfo-content-82",
+                  "image": "AuthorInfo-image-83",
+                  "root": "AuthorInfo-root-84",
+                }
+              }
+              content="<p>Something about John...</p>"
+              created="2017-10-12T13:27:49.665Z"
+              created_at="2017-10-12T13:27:49.665Z"
+              metadata={
+                Object {
+                  "image": Object {
+                    "imgix_url": "https://cosmic-s3.imgix.net/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+                    "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+                  },
+                }
+              }
+              metafields={
+                Array [
+                  Object {
+                    "children": null,
+                    "imgix_url": "https://cosmic-s3.imgix.net/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+                    "key": "image",
+                    "title": "Image",
+                    "type": "file",
+                    "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+                    "value": "9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+                  },
+                ]
+              }
+              modified_at="2018-05-17T17:44:12.977Z"
+              published_at="2018-05-17T17:44:12.977Z"
+              slug="john-doe"
+              status="published"
+              title="John Doe"
+              type_slug="authors"
+            >
+              <div
+                className="AuthorInfo-root-84 Post-centerColumn-4 Post-authorInfo-2"
+              >
+                <img
+                  alt="John Doe"
+                  className="AuthorInfo-image-83"
+                  height={120}
+                  src="https://cosmic-s3.imgix.net/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg"
+                  width={120}
+                />
+                <WithStyles(Typography)
+                  classes={
+                    Object {
+                      "root": "AuthorInfo-content-82",
+                    }
+                  }
+                  component="div"
+                  variant="body2"
+                >
+                  <Typography
+                    align="inherit"
+                    classes={
+                      Object {
+                        "alignCenter": "MuiTypography-alignCenter-54",
+                        "alignJustify": "MuiTypography-alignJustify-56",
+                        "alignLeft": "MuiTypography-alignLeft-53",
+                        "alignRight": "MuiTypography-alignRight-55",
+                        "body1": "MuiTypography-body1-50",
+                        "body2": "MuiTypography-body2-49",
+                        "button": "MuiTypography-button-52",
+                        "caption": "MuiTypography-caption-51",
+                        "colorError": "MuiTypography-colorError-64",
+                        "colorInherit": "MuiTypography-colorInherit-60",
+                        "colorPrimary": "MuiTypography-colorPrimary-61",
+                        "colorSecondary": "MuiTypography-colorSecondary-62",
+                        "colorTextSecondary": "MuiTypography-colorTextSecondary-63",
+                        "display1": "MuiTypography-display1-45",
+                        "display2": "MuiTypography-display2-44",
+                        "display3": "MuiTypography-display3-43",
+                        "display4": "MuiTypography-display4-42",
+                        "gutterBottom": "MuiTypography-gutterBottom-58",
+                        "headline": "MuiTypography-headline-46",
+                        "noWrap": "MuiTypography-noWrap-57",
+                        "paragraph": "MuiTypography-paragraph-59",
+                        "root": "MuiTypography-root-41 AuthorInfo-content-82",
+                        "subheading": "MuiTypography-subheading-48",
+                        "title": "MuiTypography-title-47",
+                      }
+                    }
+                    color="default"
+                    component="div"
+                    gutterBottom={false}
+                    headlineMapping={
+                      Object {
+                        "body1": "p",
+                        "body2": "aside",
+                        "display1": "h1",
+                        "display2": "h1",
+                        "display3": "h1",
+                        "display4": "h1",
+                        "headline": "h1",
+                        "subheading": "h3",
+                        "title": "h2",
+                      }
+                    }
+                    noWrap={false}
+                    paragraph={false}
+                    variant="body2"
+                  >
+                    <div
+                      className="MuiTypography-root-41 AuthorInfo-content-82 MuiTypography-body2-49"
+                    >
+                      <span
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<p>Something about John...</p>",
+                          }
+                        }
+                      />
+                    </div>
+                  </Typography>
+                </WithStyles(Typography)>
+              </div>
+            </AuthorInfo>
+          </WithStyles(AuthorInfo)>
+          <hr
+            className="Post-centerColumn-4 Post-divider-6"
           />
         </main>
         <WithStyles(SharingFooter)
@@ -1081,9 +1247,9 @@ exports[`Post page should render 1`] = `
           <SharingFooter
             classes={
               Object {
-                "icon": "SharingFooter-icon-81",
-                "iconButton": "SharingFooter-iconButton-82",
-                "root": "SharingFooter-root-83",
+                "icon": "SharingFooter-icon-85",
+                "iconButton": "SharingFooter-iconButton-86",
+                "root": "SharingFooter-root-87",
               }
             }
             hashtags={
