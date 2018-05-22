@@ -1,0 +1,543 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppBar should render 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <WithStyles(AppBar)
+    title="Title"
+  >
+    <AppBar
+      classes={
+        Object {
+          "appearanceBtn": "AppBar-appearanceBtn-1",
+          "backBtn": "AppBar-backBtn-2",
+          "header": "AppBar-header-3",
+          "header_topOfPage": "AppBar-header_topOfPage-4",
+          "title": "AppBar-title-5",
+          "title_topOfPage": "AppBar-title_topOfPage-6",
+        }
+      }
+      title="Title"
+    >
+      <Headroom
+        calcHeightOnResize={true}
+        disable={false}
+        disableInlineStyles={false}
+        downTolerance={0}
+        onPin={[Function]}
+        onUnfix={[Function]}
+        onUnpin={[Function]}
+        parent={[Function]}
+        pinStart={0}
+        upTolerance={5}
+        wrapperStyle={Object {}}
+      >
+        <div
+          className="headroom-wrapper"
+          style={
+            Object {
+              "height": null,
+            }
+          }
+        >
+          <div
+            className="headroom headroom--unfixed"
+            style={
+              Object {
+                "MsTransform": "translateY(0)",
+                "WebkitTransform": "translateY(0)",
+                "left": 0,
+                "position": "relative",
+                "right": 0,
+                "top": 0,
+                "transform": "translateY(0)",
+                "zIndex": 1,
+              }
+            }
+          >
+            <header
+              className="AppBar-header-3 AppBar-header_topOfPage-4"
+            >
+              <WithStyles(IconButton)
+                aria-label="Back"
+                className="AppBar-backBtn-2"
+                onClick={[Function]}
+              >
+                <IconButton
+                  aria-label="Back"
+                  className="AppBar-backBtn-2"
+                  classes={
+                    Object {
+                      "colorInherit": "MuiIconButton-colorInherit-8",
+                      "colorPrimary": "MuiIconButton-colorPrimary-9",
+                      "colorSecondary": "MuiIconButton-colorSecondary-10",
+                      "disabled": "MuiIconButton-disabled-11",
+                      "label": "MuiIconButton-label-12",
+                      "root": "MuiIconButton-root-7",
+                    }
+                  }
+                  color="default"
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  <WithStyles(ButtonBase)
+                    aria-label="Back"
+                    centerRipple={true}
+                    className="MuiIconButton-root-7 AppBar-backBtn-2"
+                    disabled={false}
+                    focusRipple={true}
+                    onClick={[Function]}
+                  >
+                    <ButtonBase
+                      aria-label="Back"
+                      centerRipple={true}
+                      className="MuiIconButton-root-7 AppBar-backBtn-2"
+                      classes={
+                        Object {
+                          "disabled": "MuiButtonBase-disabled-14",
+                          "focusVisible": "MuiButtonBase-focusVisible-15",
+                          "root": "MuiButtonBase-root-13",
+                        }
+                      }
+                      disableRipple={false}
+                      disabled={false}
+                      focusRipple={true}
+                      onClick={[Function]}
+                      tabIndex="0"
+                      type="button"
+                    >
+                      <button
+                        aria-label="Back"
+                        className="MuiButtonBase-root-13 MuiIconButton-root-7 AppBar-backBtn-2"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        tabIndex="0"
+                        type="button"
+                      >
+                        <span
+                          className="MuiIconButton-label-12"
+                        >
+                          <pure(ArrowBack)>
+                            <ArrowBack>
+                              <WithStyles(SvgIcon)>
+                                <SvgIcon
+                                  classes={
+                                    Object {
+                                      "colorAction": "MuiSvgIcon-colorAction-19",
+                                      "colorDisabled": "MuiSvgIcon-colorDisabled-21",
+                                      "colorError": "MuiSvgIcon-colorError-20",
+                                      "colorPrimary": "MuiSvgIcon-colorPrimary-17",
+                                      "colorSecondary": "MuiSvgIcon-colorSecondary-18",
+                                      "root": "MuiSvgIcon-root-16",
+                                    }
+                                  }
+                                  color="inherit"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    className="MuiSvgIcon-root-16"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <g>
+                                      <path
+                                        d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+                                      />
+                                    </g>
+                                  </svg>
+                                </SvgIcon>
+                              </WithStyles(SvgIcon)>
+                            </ArrowBack>
+                          </pure(ArrowBack)>
+                        </span>
+                        <WithStyles(TouchRipple)
+                          center={true}
+                          innerRef={[Function]}
+                        >
+                          <TouchRipple
+                            center={true}
+                            classes={
+                              Object {
+                                "child": "MuiTouchRipple-child-26",
+                                "childLeaving": "MuiTouchRipple-childLeaving-27",
+                                "childPulsate": "MuiTouchRipple-childPulsate-28",
+                                "ripple": "MuiTouchRipple-ripple-23",
+                                "ripplePulsate": "MuiTouchRipple-ripplePulsate-25",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible-24",
+                                "root": "MuiTouchRipple-root-22",
+                              }
+                            }
+                          >
+                            <TransitionGroup
+                              childFactory={[Function]}
+                              className="MuiTouchRipple-root-22"
+                              component="span"
+                              enter={true}
+                              exit={true}
+                            >
+                              <span
+                                className="MuiTouchRipple-root-22"
+                              />
+                            </TransitionGroup>
+                          </TouchRipple>
+                        </WithStyles(TouchRipple)>
+                      </button>
+                    </ButtonBase>
+                  </WithStyles(ButtonBase)>
+                </IconButton>
+              </WithStyles(IconButton)>
+              <WithStyles(Typography)
+                className="AppBar-title-5 AppBar-title_topOfPage-6"
+                variant="title"
+              >
+                <Typography
+                  align="inherit"
+                  className="AppBar-title-5 AppBar-title_topOfPage-6"
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTypography-alignCenter-42",
+                      "alignJustify": "MuiTypography-alignJustify-44",
+                      "alignLeft": "MuiTypography-alignLeft-41",
+                      "alignRight": "MuiTypography-alignRight-43",
+                      "body1": "MuiTypography-body1-38",
+                      "body2": "MuiTypography-body2-37",
+                      "button": "MuiTypography-button-40",
+                      "caption": "MuiTypography-caption-39",
+                      "colorError": "MuiTypography-colorError-52",
+                      "colorInherit": "MuiTypography-colorInherit-48",
+                      "colorPrimary": "MuiTypography-colorPrimary-49",
+                      "colorSecondary": "MuiTypography-colorSecondary-50",
+                      "colorTextSecondary": "MuiTypography-colorTextSecondary-51",
+                      "display1": "MuiTypography-display1-33",
+                      "display2": "MuiTypography-display2-32",
+                      "display3": "MuiTypography-display3-31",
+                      "display4": "MuiTypography-display4-30",
+                      "gutterBottom": "MuiTypography-gutterBottom-46",
+                      "headline": "MuiTypography-headline-34",
+                      "noWrap": "MuiTypography-noWrap-45",
+                      "paragraph": "MuiTypography-paragraph-47",
+                      "root": "MuiTypography-root-29",
+                      "subheading": "MuiTypography-subheading-36",
+                      "title": "MuiTypography-title-35",
+                    }
+                  }
+                  color="default"
+                  gutterBottom={false}
+                  headlineMapping={
+                    Object {
+                      "body1": "p",
+                      "body2": "aside",
+                      "display1": "h1",
+                      "display2": "h1",
+                      "display3": "h1",
+                      "display4": "h1",
+                      "headline": "h1",
+                      "subheading": "h3",
+                      "title": "h2",
+                    }
+                  }
+                  noWrap={false}
+                  paragraph={false}
+                  variant="title"
+                >
+                  <h2
+                    className="MuiTypography-root-29 MuiTypography-title-35 AppBar-title-5 AppBar-title_topOfPage-6"
+                  >
+                    Title
+                  </h2>
+                </Typography>
+              </WithStyles(Typography)>
+              <WithStyles(IconButton)
+                aria-label="Appearance"
+                className="AppBar-appearanceBtn-1"
+                onClick={[Function]}
+              >
+                <IconButton
+                  aria-label="Appearance"
+                  className="AppBar-appearanceBtn-1"
+                  classes={
+                    Object {
+                      "colorInherit": "MuiIconButton-colorInherit-8",
+                      "colorPrimary": "MuiIconButton-colorPrimary-9",
+                      "colorSecondary": "MuiIconButton-colorSecondary-10",
+                      "disabled": "MuiIconButton-disabled-11",
+                      "label": "MuiIconButton-label-12",
+                      "root": "MuiIconButton-root-7",
+                    }
+                  }
+                  color="default"
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  <WithStyles(ButtonBase)
+                    aria-label="Appearance"
+                    centerRipple={true}
+                    className="MuiIconButton-root-7 AppBar-appearanceBtn-1"
+                    disabled={false}
+                    focusRipple={true}
+                    onClick={[Function]}
+                  >
+                    <ButtonBase
+                      aria-label="Appearance"
+                      centerRipple={true}
+                      className="MuiIconButton-root-7 AppBar-appearanceBtn-1"
+                      classes={
+                        Object {
+                          "disabled": "MuiButtonBase-disabled-14",
+                          "focusVisible": "MuiButtonBase-focusVisible-15",
+                          "root": "MuiButtonBase-root-13",
+                        }
+                      }
+                      disableRipple={false}
+                      disabled={false}
+                      focusRipple={true}
+                      onClick={[Function]}
+                      tabIndex="0"
+                      type="button"
+                    >
+                      <button
+                        aria-label="Appearance"
+                        className="MuiButtonBase-root-13 MuiIconButton-root-7 AppBar-appearanceBtn-1"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        tabIndex="0"
+                        type="button"
+                      >
+                        <span
+                          className="MuiIconButton-label-12"
+                        >
+                          <pure(Settings)>
+                            <Settings>
+                              <WithStyles(SvgIcon)>
+                                <SvgIcon
+                                  classes={
+                                    Object {
+                                      "colorAction": "MuiSvgIcon-colorAction-19",
+                                      "colorDisabled": "MuiSvgIcon-colorDisabled-21",
+                                      "colorError": "MuiSvgIcon-colorError-20",
+                                      "colorPrimary": "MuiSvgIcon-colorPrimary-17",
+                                      "colorSecondary": "MuiSvgIcon-colorSecondary-18",
+                                      "root": "MuiSvgIcon-root-16",
+                                    }
+                                  }
+                                  color="inherit"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    className="MuiSvgIcon-root-16"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <g>
+                                      <path
+                                        d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"
+                                      />
+                                    </g>
+                                  </svg>
+                                </SvgIcon>
+                              </WithStyles(SvgIcon)>
+                            </Settings>
+                          </pure(Settings)>
+                        </span>
+                        <WithStyles(TouchRipple)
+                          center={true}
+                          innerRef={[Function]}
+                        >
+                          <TouchRipple
+                            center={true}
+                            classes={
+                              Object {
+                                "child": "MuiTouchRipple-child-26",
+                                "childLeaving": "MuiTouchRipple-childLeaving-27",
+                                "childPulsate": "MuiTouchRipple-childPulsate-28",
+                                "ripple": "MuiTouchRipple-ripple-23",
+                                "ripplePulsate": "MuiTouchRipple-ripplePulsate-25",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible-24",
+                                "root": "MuiTouchRipple-root-22",
+                              }
+                            }
+                          >
+                            <TransitionGroup
+                              childFactory={[Function]}
+                              className="MuiTouchRipple-root-22"
+                              component="span"
+                              enter={true}
+                              exit={true}
+                            >
+                              <span
+                                className="MuiTouchRipple-root-22"
+                              />
+                            </TransitionGroup>
+                          </TouchRipple>
+                        </WithStyles(TouchRipple)>
+                      </button>
+                    </ButtonBase>
+                  </WithStyles(ButtonBase)>
+                </IconButton>
+              </WithStyles(IconButton)>
+            </header>
+          </div>
+        </div>
+      </Headroom>
+      <Connect(WithStyles(AppearanceDialog))
+        onClose={[Function]}
+        open={false}
+      >
+        <WithStyles(AppearanceDialog)
+          dispatch={[Function]}
+          onClose={[Function]}
+          open={false}
+          theme="light"
+        >
+          <AppearanceDialog
+            classes={
+              Object {
+                "button": "AppearanceDialog-button-53",
+                "decreaseFontSizeBtn": "AppearanceDialog-decreaseFontSizeBtn-55",
+                "dialog": "AppearanceDialog-dialog-54",
+                "fontSizeBtnsContainer": "AppearanceDialog-fontSizeBtnsContainer-56",
+                "increaseFontSizeBtn": "AppearanceDialog-increaseFontSizeBtn-57",
+                "label": "AppearanceDialog-label-58",
+                "switchContainer": "AppearanceDialog-switchContainer-59",
+                "themeBtnsContainer": "AppearanceDialog-themeBtnsContainer-60",
+              }
+            }
+            dispatch={[Function]}
+            onClose={[Function]}
+            open={false}
+            theme="light"
+          >
+            <WithStyles(Dialog)
+              aria-labelledby="Appearance"
+              classes={
+                Object {
+                  "paper": "AppearanceDialog-dialog-54",
+                }
+              }
+              onClose={[Function]}
+              open={false}
+            >
+              <Dialog
+                TransitionComponent={[Function]}
+                aria-labelledby="Appearance"
+                classes={
+                  Object {
+                    "paper": "MuiDialog-paper-62 AppearanceDialog-dialog-54",
+                    "paperFullScreen": "MuiDialog-paperFullScreen-67",
+                    "paperFullWidth": "MuiDialog-paperFullWidth-66",
+                    "paperWidthMd": "MuiDialog-paperWidthMd-65",
+                    "paperWidthSm": "MuiDialog-paperWidthSm-64",
+                    "paperWidthXs": "MuiDialog-paperWidthXs-63",
+                    "root": "MuiDialog-root-61",
+                  }
+                }
+                disableBackdropClick={false}
+                disableEscapeKeyDown={false}
+                fullScreen={false}
+                fullWidth={false}
+                maxWidth="sm"
+                onClose={[Function]}
+                open={false}
+                transitionDuration={
+                  Object {
+                    "enter": 225,
+                    "exit": 195,
+                  }
+                }
+              >
+                <WithStyles(Modal)
+                  BackdropProps={
+                    Object {
+                      "transitionDuration": Object {
+                        "enter": 225,
+                        "exit": 195,
+                      },
+                    }
+                  }
+                  aria-labelledby="Appearance"
+                  className="MuiDialog-root-61"
+                  disableBackdropClick={false}
+                  disableEscapeKeyDown={false}
+                  onClose={[Function]}
+                  open={false}
+                  role="dialog"
+                >
+                  <Modal
+                    BackdropComponent={[Function]}
+                    BackdropProps={
+                      Object {
+                        "transitionDuration": Object {
+                          "enter": 225,
+                          "exit": 195,
+                        },
+                      }
+                    }
+                    aria-labelledby="Appearance"
+                    className="MuiDialog-root-61"
+                    classes={
+                      Object {
+                        "hidden": "MuiModal-hidden-69",
+                        "root": "MuiModal-root-68",
+                      }
+                    }
+                    disableAutoFocus={false}
+                    disableBackdropClick={false}
+                    disableEnforceFocus={false}
+                    disableEscapeKeyDown={false}
+                    disableRestoreFocus={false}
+                    hideBackdrop={false}
+                    keepMounted={false}
+                    manager={
+                      ModalManager {
+                        "containers": Array [],
+                        "data": Array [],
+                        "handleContainerOverflow": true,
+                        "hideSiblingNodes": true,
+                        "modals": Array [],
+                      }
+                    }
+                    onClose={[Function]}
+                    open={false}
+                    role="dialog"
+                  />
+                </WithStyles(Modal)>
+              </Dialog>
+            </WithStyles(Dialog)>
+          </AppearanceDialog>
+        </WithStyles(AppearanceDialog)>
+      </Connect(WithStyles(AppearanceDialog))>
+    </AppBar>
+  </WithStyles(AppBar)>
+</Provider>
+`;

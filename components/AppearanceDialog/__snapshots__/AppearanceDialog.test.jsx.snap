@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppearanceDialog should render 1`] = `
+<WithStyles(AppearanceDialog)
+  dispatch={[MockFunction]}
+  onClose={[MockFunction]}
+  open={false}
+  theme="light"
+>
+  <AppearanceDialog
+    classes={
+      Object {
+        "button": "AppearanceDialog-button-1",
+        "decreaseFontSizeBtn": "AppearanceDialog-decreaseFontSizeBtn-3",
+        "dialog": "AppearanceDialog-dialog-2",
+        "fontSizeBtnsContainer": "AppearanceDialog-fontSizeBtnsContainer-4",
+        "increaseFontSizeBtn": "AppearanceDialog-increaseFontSizeBtn-5",
+        "label": "AppearanceDialog-label-6",
+        "switchContainer": "AppearanceDialog-switchContainer-7",
+        "themeBtnsContainer": "AppearanceDialog-themeBtnsContainer-8",
+      }
+    }
+    dispatch={[MockFunction]}
+    onClose={[MockFunction]}
+    open={false}
+    theme="light"
+  >
+    <WithStyles(Dialog)
+      aria-labelledby="Appearance"
+      classes={
+        Object {
+          "paper": "AppearanceDialog-dialog-2",
+        }
+      }
+      onClose={[MockFunction]}
+      open={false}
+    >
+      <Dialog
+        TransitionComponent={[Function]}
+        aria-labelledby="Appearance"
+        classes={
+          Object {
+            "paper": "MuiDialog-paper-10 AppearanceDialog-dialog-2",
+            "paperFullScreen": "MuiDialog-paperFullScreen-15",
+            "paperFullWidth": "MuiDialog-paperFullWidth-14",
+            "paperWidthMd": "MuiDialog-paperWidthMd-13",
+            "paperWidthSm": "MuiDialog-paperWidthSm-12",
+            "paperWidthXs": "MuiDialog-paperWidthXs-11",
+            "root": "MuiDialog-root-9",
+          }
+        }
+        disableBackdropClick={false}
+        disableEscapeKeyDown={false}
+        fullScreen={false}
+        fullWidth={false}
+        maxWidth="sm"
+        onClose={[MockFunction]}
+        open={false}
+        transitionDuration={
+          Object {
+            "enter": 225,
+            "exit": 195,
+          }
+        }
+      >
+        <WithStyles(Modal)
+          BackdropProps={
+            Object {
+              "transitionDuration": Object {
+                "enter": 225,
+                "exit": 195,
+              },
+            }
+          }
+          aria-labelledby="Appearance"
+          className="MuiDialog-root-9"
+          disableBackdropClick={false}
+          disableEscapeKeyDown={false}
+          onClose={[MockFunction]}
+          open={false}
+          role="dialog"
+        >
+          <Modal
+            BackdropComponent={[Function]}
+            BackdropProps={
+              Object {
+                "transitionDuration": Object {
+                  "enter": 225,
+                  "exit": 195,
+                },
+              }
+            }
+            aria-labelledby="Appearance"
+            className="MuiDialog-root-9"
+            classes={
+              Object {
+                "hidden": "MuiModal-hidden-17",
+                "root": "MuiModal-root-16",
+              }
+            }
+            disableAutoFocus={false}
+            disableBackdropClick={false}
+            disableEnforceFocus={false}
+            disableEscapeKeyDown={false}
+            disableRestoreFocus={false}
+            hideBackdrop={false}
+            keepMounted={false}
+            manager={
+              ModalManager {
+                "containers": Array [],
+                "data": Array [],
+                "handleContainerOverflow": true,
+                "hideSiblingNodes": true,
+                "modals": Array [],
+              }
+            }
+            onClose={[MockFunction]}
+            open={false}
+            role="dialog"
+          />
+        </WithStyles(Modal)>
+      </Dialog>
+    </WithStyles(Dialog)>
+  </AppearanceDialog>
+</WithStyles(AppearanceDialog)>
+`;

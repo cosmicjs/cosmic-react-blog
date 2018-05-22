@@ -1,0 +1,531 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SharingFooter should render 1`] = `
+<WithStyles(SharingFooter)
+  asPath="/post/blog-post"
+  hashtags={
+    Array [
+      "yay",
+    ]
+  }
+  title="Blog Post"
+>
+  <SharingFooter
+    asPath="/post/blog-post"
+    classes={
+      Object {
+        "icon": "SharingFooter-icon-1",
+        "iconButton": "SharingFooter-iconButton-2",
+        "root": "SharingFooter-root-3",
+      }
+    }
+    hashtags={
+      Array [
+        "yay",
+      ]
+    }
+    title="Blog Post"
+  >
+    <div
+      className="SharingFooter-root-3"
+    >
+      <LinkRoutes
+        href="https://twitter.com/intent/tweet?text=Blog Post&hashtags=yay&url=http://localhost:undefined/post/blog-post"
+      >
+        <Link
+          href="https://twitter.com/intent/tweet?text=Blog Post&hashtags=yay&url=http://localhost:undefined/post/blog-post"
+        >
+          <a
+            href="https://twitter.com/intent/tweet?text=Blog Post&hashtags=yay&url=http://localhost:undefined/post/blog-post"
+            onClick={[Function]}
+          >
+            <WithStyles(IconButton)
+              className="SharingFooter-iconButton-2"
+            >
+              <IconButton
+                className="SharingFooter-iconButton-2"
+                classes={
+                  Object {
+                    "colorInherit": "MuiIconButton-colorInherit-5",
+                    "colorPrimary": "MuiIconButton-colorPrimary-6",
+                    "colorSecondary": "MuiIconButton-colorSecondary-7",
+                    "disabled": "MuiIconButton-disabled-8",
+                    "label": "MuiIconButton-label-9",
+                    "root": "MuiIconButton-root-4",
+                  }
+                }
+                color="default"
+                disabled={false}
+              >
+                <WithStyles(ButtonBase)
+                  centerRipple={true}
+                  className="MuiIconButton-root-4 SharingFooter-iconButton-2"
+                  disabled={false}
+                  focusRipple={true}
+                >
+                  <ButtonBase
+                    centerRipple={true}
+                    className="MuiIconButton-root-4 SharingFooter-iconButton-2"
+                    classes={
+                      Object {
+                        "disabled": "MuiButtonBase-disabled-11",
+                        "focusVisible": "MuiButtonBase-focusVisible-12",
+                        "root": "MuiButtonBase-root-10",
+                      }
+                    }
+                    disableRipple={false}
+                    disabled={false}
+                    focusRipple={true}
+                    tabIndex="0"
+                    type="button"
+                  >
+                    <button
+                      className="MuiButtonBase-root-10 MuiIconButton-root-4 SharingFooter-iconButton-2"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex="0"
+                      type="button"
+                    >
+                      <span
+                        className="MuiIconButton-label-9"
+                      >
+                        <TwitterIcon
+                          className="SharingFooter-icon-1"
+                          viewBox="0 0 512 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <svg
+                            className="SharingFooter-icon-1"
+                            viewBox="0 0 512 512"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                            />
+                          </svg>
+                        </TwitterIcon>
+                      </span>
+                      <WithStyles(TouchRipple)
+                        center={true}
+                        innerRef={[Function]}
+                      >
+                        <TouchRipple
+                          center={true}
+                          classes={
+                            Object {
+                              "child": "MuiTouchRipple-child-17",
+                              "childLeaving": "MuiTouchRipple-childLeaving-18",
+                              "childPulsate": "MuiTouchRipple-childPulsate-19",
+                              "ripple": "MuiTouchRipple-ripple-14",
+                              "ripplePulsate": "MuiTouchRipple-ripplePulsate-16",
+                              "rippleVisible": "MuiTouchRipple-rippleVisible-15",
+                              "root": "MuiTouchRipple-root-13",
+                            }
+                          }
+                        >
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            className="MuiTouchRipple-root-13"
+                            component="span"
+                            enter={true}
+                            exit={true}
+                          >
+                            <span
+                              className="MuiTouchRipple-root-13"
+                            />
+                          </TransitionGroup>
+                        </TouchRipple>
+                      </WithStyles(TouchRipple)>
+                    </button>
+                  </ButtonBase>
+                </WithStyles(ButtonBase)>
+              </IconButton>
+            </WithStyles(IconButton)>
+          </a>
+        </Link>
+      </LinkRoutes>
+      <LinkRoutes
+        href="http://www.reddit.com/submit?url=http://localhost:undefined/post/blog-post&title=Blog Post"
+      >
+        <Link
+          href="http://www.reddit.com/submit?url=http://localhost:undefined/post/blog-post&title=Blog Post"
+        >
+          <a
+            href="http://www.reddit.com/submit?url=http://localhost:undefined/post/blog-post&title=Blog Post"
+            onClick={[Function]}
+          >
+            <WithStyles(IconButton)
+              className="SharingFooter-iconButton-2"
+            >
+              <IconButton
+                className="SharingFooter-iconButton-2"
+                classes={
+                  Object {
+                    "colorInherit": "MuiIconButton-colorInherit-5",
+                    "colorPrimary": "MuiIconButton-colorPrimary-6",
+                    "colorSecondary": "MuiIconButton-colorSecondary-7",
+                    "disabled": "MuiIconButton-disabled-8",
+                    "label": "MuiIconButton-label-9",
+                    "root": "MuiIconButton-root-4",
+                  }
+                }
+                color="default"
+                disabled={false}
+              >
+                <WithStyles(ButtonBase)
+                  centerRipple={true}
+                  className="MuiIconButton-root-4 SharingFooter-iconButton-2"
+                  disabled={false}
+                  focusRipple={true}
+                >
+                  <ButtonBase
+                    centerRipple={true}
+                    className="MuiIconButton-root-4 SharingFooter-iconButton-2"
+                    classes={
+                      Object {
+                        "disabled": "MuiButtonBase-disabled-11",
+                        "focusVisible": "MuiButtonBase-focusVisible-12",
+                        "root": "MuiButtonBase-root-10",
+                      }
+                    }
+                    disableRipple={false}
+                    disabled={false}
+                    focusRipple={true}
+                    tabIndex="0"
+                    type="button"
+                  >
+                    <button
+                      className="MuiButtonBase-root-10 MuiIconButton-root-4 SharingFooter-iconButton-2"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex="0"
+                      type="button"
+                    >
+                      <span
+                        className="MuiIconButton-label-9"
+                      >
+                        <RedditIcon
+                          className="SharingFooter-icon-1"
+                          viewBox="0 0 512 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <svg
+                            className="SharingFooter-icon-1"
+                            viewBox="0 0 512 512"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M440.3 203.5c-15 0-28.2 6.2-37.9 15.9-35.7-24.7-83.8-40.6-137.1-42.3L293 52.3l88.2 19.8c0 21.6 17.6 39.2 39.2 39.2 22 0 39.7-18.1 39.7-39.7s-17.6-39.7-39.7-39.7c-15.4 0-28.7 9.3-35.3 22l-97.4-21.6c-4.9-1.3-9.7 2.2-11 7.1L246.3 177c-52.9 2.2-100.5 18.1-136.3 42.8-9.7-10.1-23.4-16.3-38.4-16.3-55.6 0-73.8 74.6-22.9 100.1-1.8 7.9-2.6 16.3-2.6 24.7 0 83.8 94.4 151.7 210.3 151.7 116.4 0 210.8-67.9 210.8-151.7 0-8.4-.9-17.2-3.1-25.1 49.9-25.6 31.5-99.7-23.8-99.7zM129.4 308.9c0-22 17.6-39.7 39.7-39.7 21.6 0 39.2 17.6 39.2 39.7 0 21.6-17.6 39.2-39.2 39.2-22 .1-39.7-17.6-39.7-39.2zm214.3 93.5c-36.4 36.4-139.1 36.4-175.5 0-4-3.5-4-9.7 0-13.7 3.5-3.5 9.7-3.5 13.2 0 27.8 28.5 120 29 149 0 3.5-3.5 9.7-3.5 13.2 0 4.1 4 4.1 10.2.1 13.7zm-.8-54.2c-21.6 0-39.2-17.6-39.2-39.2 0-22 17.6-39.7 39.2-39.7 22 0 39.7 17.6 39.7 39.7-.1 21.5-17.7 39.2-39.7 39.2z"
+                            />
+                          </svg>
+                        </RedditIcon>
+                      </span>
+                      <WithStyles(TouchRipple)
+                        center={true}
+                        innerRef={[Function]}
+                      >
+                        <TouchRipple
+                          center={true}
+                          classes={
+                            Object {
+                              "child": "MuiTouchRipple-child-17",
+                              "childLeaving": "MuiTouchRipple-childLeaving-18",
+                              "childPulsate": "MuiTouchRipple-childPulsate-19",
+                              "ripple": "MuiTouchRipple-ripple-14",
+                              "ripplePulsate": "MuiTouchRipple-ripplePulsate-16",
+                              "rippleVisible": "MuiTouchRipple-rippleVisible-15",
+                              "root": "MuiTouchRipple-root-13",
+                            }
+                          }
+                        >
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            className="MuiTouchRipple-root-13"
+                            component="span"
+                            enter={true}
+                            exit={true}
+                          >
+                            <span
+                              className="MuiTouchRipple-root-13"
+                            />
+                          </TransitionGroup>
+                        </TouchRipple>
+                      </WithStyles(TouchRipple)>
+                    </button>
+                  </ButtonBase>
+                </WithStyles(ButtonBase)>
+              </IconButton>
+            </WithStyles(IconButton)>
+          </a>
+        </Link>
+      </LinkRoutes>
+      <LinkRoutes
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:undefined/post/blog-post"
+      >
+        <Link
+          href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:undefined/post/blog-post"
+        >
+          <a
+            href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:undefined/post/blog-post"
+            onClick={[Function]}
+          >
+            <WithStyles(IconButton)
+              className="SharingFooter-iconButton-2"
+            >
+              <IconButton
+                className="SharingFooter-iconButton-2"
+                classes={
+                  Object {
+                    "colorInherit": "MuiIconButton-colorInherit-5",
+                    "colorPrimary": "MuiIconButton-colorPrimary-6",
+                    "colorSecondary": "MuiIconButton-colorSecondary-7",
+                    "disabled": "MuiIconButton-disabled-8",
+                    "label": "MuiIconButton-label-9",
+                    "root": "MuiIconButton-root-4",
+                  }
+                }
+                color="default"
+                disabled={false}
+              >
+                <WithStyles(ButtonBase)
+                  centerRipple={true}
+                  className="MuiIconButton-root-4 SharingFooter-iconButton-2"
+                  disabled={false}
+                  focusRipple={true}
+                >
+                  <ButtonBase
+                    centerRipple={true}
+                    className="MuiIconButton-root-4 SharingFooter-iconButton-2"
+                    classes={
+                      Object {
+                        "disabled": "MuiButtonBase-disabled-11",
+                        "focusVisible": "MuiButtonBase-focusVisible-12",
+                        "root": "MuiButtonBase-root-10",
+                      }
+                    }
+                    disableRipple={false}
+                    disabled={false}
+                    focusRipple={true}
+                    tabIndex="0"
+                    type="button"
+                  >
+                    <button
+                      className="MuiButtonBase-root-10 MuiIconButton-root-4 SharingFooter-iconButton-2"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex="0"
+                      type="button"
+                    >
+                      <span
+                        className="MuiIconButton-label-9"
+                      >
+                        <FacebookIcon
+                          className="SharingFooter-icon-1"
+                          viewBox="0 0 264 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <svg
+                            className="SharingFooter-icon-1"
+                            viewBox="0 0 264 512"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"
+                            />
+                          </svg>
+                        </FacebookIcon>
+                      </span>
+                      <WithStyles(TouchRipple)
+                        center={true}
+                        innerRef={[Function]}
+                      >
+                        <TouchRipple
+                          center={true}
+                          classes={
+                            Object {
+                              "child": "MuiTouchRipple-child-17",
+                              "childLeaving": "MuiTouchRipple-childLeaving-18",
+                              "childPulsate": "MuiTouchRipple-childPulsate-19",
+                              "ripple": "MuiTouchRipple-ripple-14",
+                              "ripplePulsate": "MuiTouchRipple-ripplePulsate-16",
+                              "rippleVisible": "MuiTouchRipple-rippleVisible-15",
+                              "root": "MuiTouchRipple-root-13",
+                            }
+                          }
+                        >
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            className="MuiTouchRipple-root-13"
+                            component="span"
+                            enter={true}
+                            exit={true}
+                          >
+                            <span
+                              className="MuiTouchRipple-root-13"
+                            />
+                          </TransitionGroup>
+                        </TouchRipple>
+                      </WithStyles(TouchRipple)>
+                    </button>
+                  </ButtonBase>
+                </WithStyles(ButtonBase)>
+              </IconButton>
+            </WithStyles(IconButton)>
+          </a>
+        </Link>
+      </LinkRoutes>
+      <LinkRoutes
+        href="http://www.hooli.xyz/"
+      >
+        <Link
+          href="http://www.hooli.xyz/"
+        >
+          <a
+            href="http://www.hooli.xyz/"
+            onClick={[Function]}
+          >
+            <WithStyles(IconButton)
+              className="SharingFooter-iconButton-2"
+            >
+              <IconButton
+                className="SharingFooter-iconButton-2"
+                classes={
+                  Object {
+                    "colorInherit": "MuiIconButton-colorInherit-5",
+                    "colorPrimary": "MuiIconButton-colorPrimary-6",
+                    "colorSecondary": "MuiIconButton-colorSecondary-7",
+                    "disabled": "MuiIconButton-disabled-8",
+                    "label": "MuiIconButton-label-9",
+                    "root": "MuiIconButton-root-4",
+                  }
+                }
+                color="default"
+                disabled={false}
+              >
+                <WithStyles(ButtonBase)
+                  centerRipple={true}
+                  className="MuiIconButton-root-4 SharingFooter-iconButton-2"
+                  disabled={false}
+                  focusRipple={true}
+                >
+                  <ButtonBase
+                    centerRipple={true}
+                    className="MuiIconButton-root-4 SharingFooter-iconButton-2"
+                    classes={
+                      Object {
+                        "disabled": "MuiButtonBase-disabled-11",
+                        "focusVisible": "MuiButtonBase-focusVisible-12",
+                        "root": "MuiButtonBase-root-10",
+                      }
+                    }
+                    disableRipple={false}
+                    disabled={false}
+                    focusRipple={true}
+                    tabIndex="0"
+                    type="button"
+                  >
+                    <button
+                      className="MuiButtonBase-root-10 MuiIconButton-root-4 SharingFooter-iconButton-2"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex="0"
+                      type="button"
+                    >
+                      <span
+                        className="MuiIconButton-label-9"
+                      >
+                        <HooliIcon
+                          className="SharingFooter-icon-1"
+                          viewBox="0 0 640 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <svg
+                            className="SharingFooter-icon-1"
+                            viewBox="0 0 640 512"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M508.4 352h57.9V156.7L508.4 184v168zm73.7-110.5V352H640V241.5h-57.9zm-250.7-8.9c-18.2-18.2-50.4-17.1-50.4-17.1s-32.2-1.1-50.4 17.1c-1.9 1.9-3.7 3.9-5.3 6-38.2-29.6-72.5-46.5-102.1-61.1v-20.7l-22.5 10.6c-54.4-22.1-89-18.2-97.3.1 0 0-24.9 32.8 61.9 110.9v-31c-48.8-54.6-39-76.1-35.3-79.2 13.5-11.4 37.5-8 64.4 2.1L65.2 184v63.3c13.1 14.7 30.5 31.5 53.5 50.4l4.5 3.6v-29.8c0-6.9 1.7-18.2 10.8-18.2s10.6 6.9 10.6 15V317c18 12.2 37.3 22.1 57.7 29.6v-93.9c0-18.7-13.4-37.4-40.6-37.4-15.8-.1-30.5 8.2-38.5 21.9v-54.3c41.9 20.9 83.9 46.5 99.9 58.3-10.2 14.6-9.3 28.1-9.3 43.7 0 18.7-1.4 34.3 16.8 52.5 18.2 18.2 50.4 17.1 50.4 17.1s32.3 1.1 50.4-17.1c18.2-18.2 16.7-33.8 16.7-52.5 0-18.5 1.5-34.2-16.7-52.3zm-39.7 71.9c0 3.6-1.8 12.5-10.7 12.5-8.9 0-10.7-8.9-10.7-12.5v-40.4c0-8.7 7.3-10.9 10.7-10.9 3.4 0 10.7 2.1 10.7 10.9v40.4zm185.7-71.9c-18.2-18.2-50.4-17.1-50.4-17.1s-32.3-1.1-50.4 17.1c-18.2 18.2-16.8 33.9-16.8 52.6 0 18.7-1.4 34.3 16.8 52.5 18.2 18.2 50.4 17.1 50.4 17.1s32.3 1.1 50.4-17.1c18.2-18.2 16.8-33.8 16.8-52.5-.1-18.8 1.3-34.5-16.8-52.6zm-39.8 71.9c0 3.6-1.8 12.5-10.7 12.5-8.9 0-10.7-8.9-10.7-12.5v-40.4c0-8.7 7.3-10.9 10.7-10.9 3.4 0 10.7 2.1 10.7 10.9v40.4zm173.5-73c15.9 0 28.9-12.9 28.9-28.9s-12.9-24.5-28.9-24.5c-15.9 0-28.9 8.6-28.9 24.5s12.9 28.9 28.9 28.9zM144.5 352l38.3.8c-13.2-4.6-26-10.2-38.3-16.8v16zm-21.4 0v-28.6c-6.5-4.2-13-8.7-19.4-13.6-14.8-11.2-27.5-21.7-38.5-31.5V352h57.9zm59.7.8c36.5 12.5 69.9 14.2 94.7 7.2-19.9.2-45.8-2.6-75.3-13.3v5.3l-19.4.8z"
+                            />
+                          </svg>
+                        </HooliIcon>
+                      </span>
+                      <WithStyles(TouchRipple)
+                        center={true}
+                        innerRef={[Function]}
+                      >
+                        <TouchRipple
+                          center={true}
+                          classes={
+                            Object {
+                              "child": "MuiTouchRipple-child-17",
+                              "childLeaving": "MuiTouchRipple-childLeaving-18",
+                              "childPulsate": "MuiTouchRipple-childPulsate-19",
+                              "ripple": "MuiTouchRipple-ripple-14",
+                              "ripplePulsate": "MuiTouchRipple-ripplePulsate-16",
+                              "rippleVisible": "MuiTouchRipple-rippleVisible-15",
+                              "root": "MuiTouchRipple-root-13",
+                            }
+                          }
+                        >
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            className="MuiTouchRipple-root-13"
+                            component="span"
+                            enter={true}
+                            exit={true}
+                          >
+                            <span
+                              className="MuiTouchRipple-root-13"
+                            />
+                          </TransitionGroup>
+                        </TouchRipple>
+                      </WithStyles(TouchRipple)>
+                    </button>
+                  </ButtonBase>
+                </WithStyles(ButtonBase)>
+              </IconButton>
+            </WithStyles(IconButton)>
+          </a>
+        </Link>
+      </LinkRoutes>
+    </div>
+  </SharingFooter>
+</WithStyles(SharingFooter)>
+`;

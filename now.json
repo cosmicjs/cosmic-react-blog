@@ -1,0 +1,8 @@
+{
+  "alias": [
+    "cosmicblog.chriso.io",
+    "www.cosmicblog.chriso.io"
+  ],
+  "dotenv": ".env.production",
+  "public": false
+}
