@@ -41,23 +41,29 @@
     "react-dom": "^16.3.2",
     "react-headroom": "^2.2.2",
     "react-imgix": "^7.1.1",
+    "babel-plugin-inline-react-svg": "^0.5.2",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
     "react-jss": "^8.4.0",
     "react-redux": "^5.0.7",
     "recompose": "^0.27.0",
     "redux": "^4.0.0",
     "redux-devtools-extension": "^2.13.2",
     "redux-thunk": "^2.2.0",
-    "styled-jsx": "^2.2.6"
-  },
-  "devDependencies": {
-    "babel-eslint": "^8.2.3",
+    "styled-jsx": "^2.2.6",
+    "styled-jsx-plugin-sass": "^0.2.4",
+    "extract-loader": "^2.0.1",
+    "file-loader": "^1.1.11",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^22.4.4",
+    "node-sass": "^4.9.0",
     "babel-plugin-inline-dotenv": "^1.1.2",
-    "babel-plugin-inline-react-svg": "^0.5.2",
-    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
     "css-loader": "^0.28.11",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
-    "enzyme-to-json": "^3.3.4",
+    "enzyme-to-json": "^3.3.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-env": "0.0.3",
@@ -65,12 +71,6 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.8.2",
     "eslint-watch": "^3.1.4",
-    "extract-loader": "^2.0.1",
-    "file-loader": "^1.1.11",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^22.4.4",
-    "node-sass": "^4.9.0",
-    "now": "^11.1.12",
-    "styled-jsx-plugin-sass": "^0.2.4"
+    "now": "^11.1.12"
   }
 }
