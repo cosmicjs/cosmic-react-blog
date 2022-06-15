@@ -45,7 +45,7 @@
     "babel-plugin-transform-inline-environment-variables": "^0.4.3",
     "react-jss": "^8.4.0",
     "react-redux": "^5.0.7",
-    "recompose": "^0.27.0",
+    "recompose": "^0.30.0",
     "redux": "^4.0.0",
     "redux-devtools-extension": "^2.13.2",
     "redux-thunk": "^2.2.0",
