@@ -33,7 +33,7 @@
     "isomorphic-unfetch": "^2.0.0",
     "jss": "^9.8.1",
     "moment": "^2.29.3",
-    "next": "^6.0.3",
+    "next": "^7.0.3",
     "next-page-transitions": "^1.0.0-alpha.3",
     "next-routes": "^1.4.1",
     "prop-types": "^15.6.1",
