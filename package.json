@@ -48,7 +48,7 @@
     "recompose": "^0.30.0",
     "redux": "^4.0.0",
     "redux-devtools-extension": "^2.13.2",
-    "redux-thunk": "^2.2.0",
+    "redux-thunk": "^2.4.1",
     "styled-jsx": "^2.2.6",
     "styled-jsx-plugin-sass": "^0.2.4",
     "extract-loader": "^2.0.1",
